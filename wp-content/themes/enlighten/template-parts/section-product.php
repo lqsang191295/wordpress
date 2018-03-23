@@ -388,7 +388,7 @@ var myFunction = function (){
 					<h3>Big Data Explained</h3>
 					</div>
 				</a>
-				<p>What is big data? Learn its key traits, plus 7 major use cases. </p>
+				<p>What is big data? Learn its key traits</p>
 			</li>			
 		</ul>
   </div>
