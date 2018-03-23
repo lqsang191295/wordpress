@@ -1,0 +1,4 @@
+1495012310: /home1/employt3/public_html/platinumglobal/ssv3_payload_extractor-xZ1z0CIrTC.php startup
+[01-Jun-2017 10:14:49 UTC] PHP Warning:  mkdir(): File exists in /home1/employt3/public_html/platinumglobal/wp-content/mu-plugins/endurance-page-cache.php on line 218
+[15-Mar-2018 08:12:58 UTC] PHP Parse error:  syntax error, unexpected '<' in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/template-parts/section-news_slide.php on line 43
+[15-Mar-2018 08:51:06 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77

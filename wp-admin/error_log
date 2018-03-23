@@ -1,0 +1,527 @@
+[17-May-2017 10:38:07 UTC] wizard_viewed
+[17-May-2017 10:49:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[18-May-2017 09:27:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[18-May-2017 09:27:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[18-May-2017 09:27:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[18-May-2017 09:28:14 UTC] PHP Warning:  implode(): Invalid arguments passed in /home1/employt3/public_html/platinumglobal/wp-content/themes/enfold/framework/php/class-framework-widgets.php on line 605
+[18-May-2017 09:30:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[18-May-2017 11:13:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[19-May-2017 02:06:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[19-May-2017 02:06:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[19-May-2017 02:07:19 UTC] PHP Warning:  implode(): Invalid arguments passed in /home1/employt3/public_html/platinumglobal/wp-content/themes/enfold/framework/php/class-framework-widgets.php on line 605
+[19-May-2017 02:17:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[19-May-2017 02:18:49 UTC] PHP Warning:  implode(): Invalid arguments passed in /home1/employt3/public_html/platinumglobal/wp-content/themes/enfold/framework/php/class-framework-widgets.php on line 605
+[19-May-2017 02:18:50 UTC] PHP Warning:  implode(): Invalid arguments passed in /home1/employt3/public_html/platinumglobal/wp-content/themes/enfold/framework/php/class-framework-widgets.php on line 605
+[19-May-2017 02:18:51 UTC] PHP Warning:  implode(): Invalid arguments passed in /home1/employt3/public_html/platinumglobal/wp-content/themes/enfold/framework/php/class-framework-widgets.php on line 605
+[19-May-2017 02:18:52 UTC] PHP Warning:  implode(): Invalid arguments passed in /home1/employt3/public_html/platinumglobal/wp-content/themes/enfold/framework/php/class-framework-widgets.php on line 605
+[19-May-2017 02:18:54 UTC] PHP Warning:  implode(): Invalid arguments passed in /home1/employt3/public_html/platinumglobal/wp-content/themes/enfold/framework/php/class-framework-widgets.php on line 605
+[19-May-2017 02:18:56 UTC] PHP Warning:  implode(): Invalid arguments passed in /home1/employt3/public_html/platinumglobal/wp-content/themes/enfold/framework/php/class-framework-widgets.php on line 605
+[19-May-2017 02:25:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[19-May-2017 02:34:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[19-May-2017 02:47:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[19-May-2017 02:57:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[19-May-2017 03:48:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[25-May-2017 08:41:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[25-May-2017 08:44:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[04-Jun-2017 15:23:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[12-Jun-2017 10:42:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[19-Jun-2017 04:35:08 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:08 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:08 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:08 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:08 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[19-Jun-2017 04:35:08 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:08 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:08 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:08 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:08 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[19-Jun-2017 04:35:09 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:09 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:09 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:09 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:09 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[19-Jun-2017 04:35:10 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:10 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:10 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:10 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:10 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[19-Jun-2017 04:35:11 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:11 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:11 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:11 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:11 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[19-Jun-2017 04:35:11 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:11 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:11 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:11 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:11 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[19-Jun-2017 04:35:12 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:12 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:12 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:12 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[19-Jun-2017 04:35:12 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[07-Jul-2017 02:50:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/platinumglobal/wp-content/plugins/optinmonster/OMAPI/Widget.php on line 177
+[02-Aug-2017 06:50:55 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:55 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:55 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:55 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:55 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[02-Aug-2017 06:50:56 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:56 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:56 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:56 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:56 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[02-Aug-2017 06:50:56 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:56 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:56 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:56 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:56 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[02-Aug-2017 06:50:57 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:57 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:57 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:57 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:57 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[02-Aug-2017 06:50:58 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:58 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:58 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:58 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:58 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[02-Aug-2017 06:50:59 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:59 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:59 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:59 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:59 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[02-Aug-2017 06:50:59 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:59 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:59 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:59 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[02-Aug-2017 06:50:59 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[17-Oct-2017 23:57:26 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:26 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:26 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:26 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:26 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[17-Oct-2017 23:57:27 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:27 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:27 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:27 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:27 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[17-Oct-2017 23:57:27 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:27 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:27 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:27 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:27 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[17-Oct-2017 23:57:28 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:28 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:28 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:28 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:28 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[17-Oct-2017 23:57:29 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:29 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:29 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:29 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:29 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[17-Oct-2017 23:57:30 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:30 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:30 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:30 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:30 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[17-Oct-2017 23:57:30 America/Chicago] PHP Warning:  PHP Startup: mailparse: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:30 America/Chicago] PHP Warning:  PHP Startup: uploadprogress: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:30 America/Chicago] PHP Warning:  PHP Startup: imagick: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:30 America/Chicago] PHP Warning:  PHP Startup: magickwand: Unable to initialize module
+Module compiled with module API=20151012
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[17-Oct-2017 23:57:30 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so' - /opt/php70/lib/php/extensions/no-debug-non-zts-20151012/oauth.so: undefined symbol: zend_sort in Unknown on line 0
+[23-Oct-2017 06:57:54 UTC] mojo_plugin_deactivated
+[14-Mar-2018 09:47:07 UTC] PHP Warning:  Illegal string offset 'post_type' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:47:07 UTC] PHP Warning:  Illegal string offset 'post__in' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:47:07 UTC] PHP Warning:  Illegal string offset 'tax_query' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:47:07 UTC] PHP Warning:  Illegal string offset 'date_type' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:47:07 UTC] PHP Warning:  Illegal string offset 'date_query' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:47:07 UTC] PHP Warning:  Illegal string offset 'date_query_relative' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:47:07 UTC] PHP Warning:  Illegal string offset 'orderby' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:47:07 UTC] PHP Warning:  Illegal string offset 'order' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:47:07 UTC] PHP Warning:  Illegal string offset 'posts_per_page' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:47:07 UTC] PHP Warning:  Illegal string offset 'sticky' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:47:07 UTC] PHP Warning:  Illegal string offset 'additional' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:47:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/posts.class.php on line 176
+[14-Mar-2018 09:55:08 UTC] PHP Warning:  Illegal string offset 'post_type' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:55:08 UTC] PHP Warning:  Illegal string offset 'post__in' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:55:08 UTC] PHP Warning:  Illegal string offset 'tax_query' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:55:08 UTC] PHP Warning:  Illegal string offset 'date_type' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:55:08 UTC] PHP Warning:  Illegal string offset 'date_query' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:55:08 UTC] PHP Warning:  Illegal string offset 'date_query_relative' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:55:08 UTC] PHP Warning:  Illegal string offset 'orderby' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:55:08 UTC] PHP Warning:  Illegal string offset 'order' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:55:08 UTC] PHP Warning:  Illegal string offset 'posts_per_page' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:55:08 UTC] PHP Warning:  Illegal string offset 'sticky' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:55:08 UTC] PHP Warning:  Illegal string offset 'additional' in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/container-base.class.php on line 115
+[14-Mar-2018 09:55:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/employt3/public_html/surehcs/wp-content/plugins/so-widgets-bundle/base/inc/fields/posts.class.php on line 176
+[15-Mar-2018 08:35:46 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php:54
+Stack trace:
+#0 /home1/employt3/public_html/surehcs/wp-includes/class-wp-hook.php(298): enlighten_customize_register(Object(WP_Customize_Manager))
+#1 /home1/employt3/public_html/surehcs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/employt3/public_html/surehcs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home1/employt3/public_html/surehcs/wp-includes/class-wp-customize-manager.php(754): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /home1/employt3/public_html/surehcs/wp-includes/class-wp-hook.php(298): WP_Customize_Manager->wp_loaded('')
+#5 /home1/employt3/public_html/surehcs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/employt3/public_html/surehcs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home1/employt3/public_html/surehcs/wp-settings.php(469): d in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 54
+[15-Mar-2018 08:36:21 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php:54
+Stack trace:
+#0 /home1/employt3/public_html/surehcs/wp-includes/class-wp-hook.php(298): enlighten_customize_register(Object(WP_Customize_Manager))
+#1 /home1/employt3/public_html/surehcs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/employt3/public_html/surehcs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home1/employt3/public_html/surehcs/wp-includes/class-wp-customize-manager.php(754): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 /home1/employt3/public_html/surehcs/wp-includes/class-wp-hook.php(298): WP_Customize_Manager->wp_loaded('')
+#5 /home1/employt3/public_html/surehcs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#6 /home1/employt3/public_html/surehcs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home1/employt3/public_html/surehcs/wp-settings.php(469): d in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 54
+[15-Mar-2018 08:50:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77
+[15-Mar-2018 08:50:27 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77
+[15-Mar-2018 08:50:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77
+[15-Mar-2018 08:50:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77
+[15-Mar-2018 08:50:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77
+[15-Mar-2018 08:50:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77
+[15-Mar-2018 08:50:46 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77
+[15-Mar-2018 08:50:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77
+[15-Mar-2018 08:51:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77
+[15-Mar-2018 08:51:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77
+[15-Mar-2018 08:51:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77
+[15-Mar-2018 08:51:47 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77
+[15-Mar-2018 08:53:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/employt3/public_html/surehcs/wp-content/themes/enlighten/inc/customizer.php on line 77
