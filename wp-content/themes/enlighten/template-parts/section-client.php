@@ -11,11 +11,10 @@ if($enlighten_section_title || $enlighten_section_title_sub || $enlighten_client
                 if($enlighten_section_title || $enlighten_section_title_sub){
                     ?>
                     <div class="effect_title">
-                    <div class="after-effet1"></div>
                         <div class="section_title">
-                              <?php if($enlighten_section_title){ ?>
+                                <!--<?php if($enlighten_section_title){ ?>
                                 <span class="title_one wow fadeInUp"><?php echo esc_html($enlighten_section_title); ?></span>
-                                <?php } ?>
+                                <?php } ?>-->
                                 <?php if($enlighten_section_title_sub){ ?>
                                 <span class="title_two wow fadeInUp"><?php echo esc_html($enlighten_section_title_sub); ?></span>
                                 <?php } ?>

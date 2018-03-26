@@ -242,6 +242,17 @@
 						<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/japan.png" ?> "/>
 					</a>
 				</li>
+				<li class="u02mtool" id="u02cmenu">
+					<a href="#u02countrymenu" style="width: auto;
+				    font-size: 13px;
+				    line-height: 42px;
+				    color: #324b5c;
+				    display: inline-block;
+				    padding: 0 5px;
+				    margin-top: 19px;">
+						<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/china.png" ?> "/>
+					</a>
+				</li>
 				<!-- country select -->
 				<!--<li class="u02mtool" id="u02cmenu">
 					<a href="#u02countrymenu" class="u02ticon u02regn"><span>Country/Region</span></a>

@@ -31,7 +31,7 @@
                         $enlighten_content = get_the_content();
 				?>
 				<li>
-					<a href="#" class="icn-cvthn-right beforewhite"> 
+					<a href="<?php the_permalink(); ?>" class="icn-cvthn-right beforewhite"> 
 					<div class="hp11w5 o-bgimg" style="background-image: url(&quot;<?php echo $enlighten_image_url;?>&quot;);">&nbsp;</div>
 						<div class="hp11w6">
 						</div>
@@ -43,8 +43,7 @@
 							<div class="hp11Video"></div>
 							<div class="hp11w8">
 							<hr>
-							<span>Leverages Oracle Mobile Cloud Service to serve millions of customers. </span>
-							<p></p><div class="hp11GoBtn">Watch the video</div><p></p>
+							<div class="hp11GoBtn">Chi tiết</div>
 							</div>
 						</div>
 					</a>

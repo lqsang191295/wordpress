@@ -60,105 +60,6 @@
 			<i class="cw21z1"></i></div>
       
     </div>
-<style>
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1050;
-    display: none;
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
-    outline: 0;
-}
-.modal-body {
-	margin: 0 40%;
-    display: block;
-    position: fixed;
-    top: 30%;
-}
-.modal-header {
-	padding: 0 10px;
-    text-align: right;
-}
-/* Modal Content */
-.modal-content {
-    //margin: auto;
-    //padding: 0 20px 20px 20px;
-}
-
-/* The Close Button */
-.close {
-    color: #aaaaaa;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-</style>
-<script>
-// Get the modal
-var myFunction = function (){
-	var modal = document.getElementById('myModal');
-
-	// Get the button that opens the modal
-	var btn = document.getElementById("myBtn");
-
-	// Get the <span> element that closes the modal
-	//var span = document.getElementsByClassName("close")[0];
-
-	// When the user clicks the button, open the modal 
-	
-	modal.style.display = "block";
-
-	// When the user clicks on <span> (x), close the modal
-	//span.onclick = function() {
-	    //modal.style.display = "none";
-	//}
-
-	// When the user clicks anywhere outside of the modal, close it
-	window.onclick = function(event) {
-	    if (event.target == modal) {
-	        modal.style.display = "none";
-	    }
-	}
-}
-</script>
-<div id="myModal" class="modal fadeInUp animated">
-	<div class="modal-body">
-	<!--<div class="modal-header">
-		<div>
-    	<span class="close">&times;</span>
-    	</div>
-	</div>-->
-  <!-- Modal content -->
-	<div class="modal-content">
-		<?php 
-			echo do_shortcode("[DISPLAY_ULTIMATE_SOCIAL_ICONS]")
-		?>
-		
-	    <!--<a href="#"><span class="modal-content-facebook"></span></a>
-	    <a href="#"><span class="modal-content-google"></span></a> 
-	    <a href="#"><span class="modal-content-linkedin"></span></a>
-	    <a href="#"><span class="modal-content-twitter"></span></a>-->
-	</div>
-	</div>
-</div>
-<!---->
 
 <!-- Hết div-->
 <div class="cb25 cb25v2" data-trackas="cb25">
@@ -169,7 +70,7 @@ var myFunction = function (){
 			<div class="cb25w3">
 				<a href="/applications/erp/index.html" target="_top" data-lbl="loc2:finance">
 					<div class="icn-img beforeblue">
-						<img src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-portal.png">
+						<img style="background-color: #e3e7ea;" src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-portal.png">
 					</div>
 					<span>SurePORTAL</span>
 				</a>
@@ -178,7 +79,7 @@ var myFunction = function (){
 			<div class="cb25w3">
 				<a href="https://developer.oracle.com/" target="_top" data-lbl="loc1:development">
 					<div class="icn-img beforedarkburgundy">
-						<img src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-erp.png">
+						<img style="background-color: #e3e7ea;" src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-erp.png">
 					</div>
 					<span>SureERP</span>
 				</a>
@@ -187,7 +88,7 @@ var myFunction = function (){
 			<div class="cb25w3">
 				<a href="/applications/human-capital-management/index.html" target="_top" data-lbl="loc3:hcm-hr">
 					<div class="icn-img beforegreen">
-						<img src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-Dynamic-moi.png">						
+						<img style="background-color: #e3e7ea;" src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-Dynamic-moi.png">						
 					</div>
 					<span>Micsrosoft Dynamics</span>
 				</a>
@@ -195,7 +96,7 @@ var myFunction = function (){
 			<div class="cb25w3">
 				<a href="/industries/index.html" target="_top" data-lbl="loc4:industries">
 					<div class="icn-img beforeslate">
-						<img src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-hcs.png">
+						<img style="background-color: #e3e7ea;" src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-hcs.png">
 					</div>
 					<span>SureHCS</span>
 				</a>
@@ -203,7 +104,7 @@ var myFunction = function (){
 			<div class="cb25w3">
 				<a href="http://www.oracle.com/technetwork/index.html" target="_top" data-lbl="loc5:it">
 					<div class="icn-img beforedarkslate">
-						<img src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-Dynamic-moi.png">	
+						<img style="background-color: #e3e7ea;" src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-Dynamic-moi.png">	
 					</div>
 					<span>IT</span>
 				</a>
@@ -211,7 +112,7 @@ var myFunction = function (){
 			<div class="cb25w3 hp11current">
 				<a href="/marketingcloud/index.html" target="_top" data-lbl="loc6:marketing">
 					<div class="icn-img beforeorange">
-						<img src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-Dynamic-moi.png">
+						<img style="background-color: #e3e7ea;" src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-Dynamic-moi.png">
 					</div>
 					<span>Marketing</span>
 				</a>
@@ -219,7 +120,7 @@ var myFunction = function (){
 			<div class="cb25w3">
 				<a href="/applications/customer-experience/sales/index.html" target="_top" data-lbl="loc7:sales">
 					<div class="icn-img beforeburgundy">
-						<img src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-Dynamic-moi.png">
+						<img style="background-color: #e3e7ea;" src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-Dynamic-moi.png">
 					</div>
 					<span>Sales</span>
 				</a>
@@ -227,7 +128,7 @@ var myFunction = function (){
 			<div class="cb25w3">
 				<a href="/applications/customer-experience/service/index.html" target="_top" data-lbl="loc8:service">
 					<div class="icn-img beforeslate">
-						<img src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-Dynamic-moi.png">
+						<img style="background-color: #e3e7ea;" src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-Dynamic-moi.png">
 					</div>
 					<span>Service</span>
 				</a>
@@ -235,7 +136,7 @@ var myFunction = function (){
 			<div class="cb25w3">
 				<a href="/applications/supply-chain-management/" target="_top" data-lbl="loc9:supply-chain">
 					<div class="icn-img beforedarkorange">
-						<img src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-Dynamic-moi.png">
+						<img style="background-color: #e3e7ea;" src="http://localhost:8080/surehcs/wp-content/uploads/2018/03/icon-Dynamic-moi.png">
 					</div>
 					<span>Supply Chain</span>
 				</a>
