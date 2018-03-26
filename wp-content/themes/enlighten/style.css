@@ -16902,7 +16902,6 @@ div.sharewidget div.icn-share:before,div.sharewidget div.icn-share-alt:before {
 .hp11w3 ul li {
     text-align: left;
     width: 100%;
-    max-width: 339px;
     min-width: 100px;
     height: auto;
     padding: 0 0 420px;
@@ -17021,7 +17020,7 @@ div.sharewidget div.icn-share:before,div.sharewidget div.icn-share-alt:before {
     bottom: 0;
     right: 0;
     background-position: 50% 50%;
-    background-size: 339px auto;
+    background-size: 375px auto;
     background-repeat: no-repeat
 }
 
