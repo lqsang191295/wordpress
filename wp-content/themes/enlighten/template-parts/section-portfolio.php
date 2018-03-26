@@ -8,7 +8,7 @@ if($enlighten_enable_portfolio){
                 'post_type' =>'post',
                 'cat' => $enlighten_portfolio_cat,
                 'order' => 'DESC',
-                'posts_per_page' => -1
+                'posts_per_page' => 6
             );
             $enlighten_port_query = new WP_Query($enlighten_portfolio_args);
             if($enlighten_port_query->have_posts()):

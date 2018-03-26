@@ -146,6 +146,16 @@ $wp_customize->add_section(
     )
 );
 $wp_customize->add_section(
+    'enlighten_sanpham_section',
+    array(
+        'title' => esc_html__('Sản phẩm Section','enlighten'),
+        'priority' => 27,
+        'capability' => 'edit_theme_options',
+        'theme_support' => '',
+        'panel' => 'enlighten_home_panel'
+    )
+);
+$wp_customize->add_section(
     'enlighten_service_section',
     array(
         'title' => esc_html__('Service Section','enlighten'),
@@ -1906,5 +1916,59 @@ $wp_customize->add_setting(
             'type' => 'text',
             'section' => 'enlighten_action_section',
             'priority' => 12
+        )
+    );
+
+
+    // sản phẩm
+
+    $wp_customize->add_setting(
+        'enlighten_enable_sanpham',
+        array(
+            'default' => '',
+            'sanitize_callback' => 'enlighten_sanitize_checkbox'
+        )
+    );
+    $wp_customize->add_control(
+        'enlighten_enable_sanpham',
+        array(
+            'label' => esc_html__('Enable Portfolio Section','enlighten'),
+            'section' => 'enlighten_sanpham_section',
+            'type' => 'checkbox',
+            'priority' => 1,
+        )
+    );
+    $wp_customize->add_setting(
+        'enlighten_sanpham_title',
+        array(
+            'default' => '',
+            'transport'   => 'postMessage',
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+    $wp_customize->add_control(
+        'enlighten_sanpham_title',
+        array(
+            'label' => esc_html__('Section Title Sản Phẩm','enlighten'),
+            'type' => 'text',
+            'section' => 'enlighten_sanpham_section',
+            'priority' => 3
+        )
+    );
+    $wp_customize->add_setting(
+        'enlighten_sanpham_category',
+        array(
+            'default' => '',
+            'sanitize_callback' => 'enlighten_category_list_sanitize'
+        )
+    );
+    $wp_customize->add_control(
+        'enlighten_sanpham_category',
+        array(
+            'label' => esc_html__('News Slide Category','enlighten'),
+            'section' => 'enlighten_sanpham_section',
+            'type' => 'select',
+            'choices' => $enlighten_categories_list,
+            'priority' => 5
         )
     );
