@@ -3,7 +3,7 @@
  * Template Name: Home Page
  */
  get_header();
- $enlighten_home_sections = array('news_slide', 'action', 'portfolio', 'sanpham', 'service','achieve','video','cta','faq_testimonial', 'product','news_twitter_message','client');
+ $enlighten_home_sections = array('news_slide', 'action', 'portfolio', 'sanpham', 'customer', 'service','achieve','video','cta','faq_testimonial', 'news_twitter_message', 'product', 'client');
  foreach($enlighten_home_sections as $enlighten_home_section)
  {
     $enable_section = esc_attr(get_theme_mod('enlighten_enable_'.$enlighten_home_section));

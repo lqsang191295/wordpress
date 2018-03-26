@@ -237,6 +237,16 @@ $wp_customize->add_section(
         'theme_support' => '',
     )
 );
+$wp_customize->add_section(
+    'enlighten_customer_section',
+    array(
+        'title' => esc_html__('Đối tác Section','enlighten'),
+        'priority' => 28,
+        'capability' => 'edit_theme_options',
+        'theme_support' => '',
+        'panel' => 'enlighten_home_panel'
+    )
+);
 //Add Section End
 
 /** =============================================================================== **/
@@ -1970,5 +1980,57 @@ $wp_customize->add_setting(
             'type' => 'select',
             'choices' => $enlighten_categories_list,
             'priority' => 5
+        )
+    );
+
+    //====================
+    $wp_customize->add_setting(
+        'enlighten_enable_customer',
+        array(
+            'default' => '',
+            'sanitize_callback' => 'sanitize_text_field'
+        )
+    );
+    $wp_customize->add_control(
+        'enlighten_enable_customer',
+        array(
+            'label' => esc_html__('Enable Client','enlighten'),
+            'section' => 'enlighten_customer_section',
+            'type' => 'checkbox',
+            'priority' => 1,
+        )
+    );
+    $wp_customize->add_setting(
+        'enlighten_customer_title',
+        array(
+            'default' => '',
+            'transport'   => 'postMessage',
+            'sanitize_callback' => 'sanitize_text_field',
+        )
+    );
+    $wp_customize->add_control(
+        'enlighten_customer_title',
+        array(
+            'label' => esc_html__('Section Đối Tác Title','enlighten'),
+            'section' => 'enlighten_customer_section',
+            'type' => 'text',
+            'priority' => 4
+        )
+    );
+    $wp_customize->add_setting(
+        'enlighten_customer_cat',
+        array(
+            'default' => '',
+            'sanitize_callback' => 'enlighten_category_list_sanitize',
+        )
+    );
+    $wp_customize->add_control(
+        'enlighten_customer_cat',
+        array(
+            'label' => esc_html__('Client Category','enlighten'),
+            'section' => 'enlighten_customer_section',
+            'type' => 'select',
+            'choices' => $enlighten_categories_list,
+            'priorty' => 8
         )
     );
