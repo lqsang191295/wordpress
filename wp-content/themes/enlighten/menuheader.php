@@ -174,12 +174,11 @@
 			<ul>
 				<!-- user tools -->
 				<li class="u02mtool u02toolsloggedout">
-					<a href="javascript:void(0)" class="u02ticon u02user" data-lbl="profile:sign-in-account">
-						<span class="u02signin">Sign In</span>
-						<span class="u02signout">Account</span>
+					<a href="javascript:void(0)" class="u02ticon u02question u02user">
+						<span class="u02signin">Q & A</span>
 					</a>
 					
-					<div class="u02user u02toolpop u02init" data-lbl="profile"><i></i>
+					<!--<div class="u02user u02toolpop u02init" data-lbl="profile"><i></i>
 						<div class="u02userin"><h5 class="u02pttl u02userloggedin">Account</h5>
 							
 							<div class="u02userinw1 u02userloggedout" data-lbl="oracle-account">
@@ -195,249 +194,60 @@
 								</ul>
 							</div>
 						</div>
-					</div>
+					</div> -->
 
 				</li>
 
-
-				<!-- country select -->
 				<li class="u02mtool" id="u02cmenu">
+					<a href="#u02countrymenu" style="width: auto;
+				    font-size: 13px;
+				    line-height: 42px;
+				    color: #324b5c;
+				    display: inline-block;
+				    padding: 0 5px;
+				    margin-top: 19px;">
+						<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/vietnam.png" ?> "/>
+					</a>
+				</li>
+				<li class="u02mtool" id="u02cmenu">
+					<a href="#u02countrymenu" style="width: auto;
+				    font-size: 13px;
+				    line-height: 42px;
+				    color: #324b5c;
+				    display: inline-block;
+				    padding: 0 5px;
+				    margin-top: 19px;">
+						<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/united-states.png" ?> "/>
+					</a>
+				</li>
+				<li class="u02mtool" id="u02cmenu">
+					<a href="#u02countrymenu" style="width: auto;
+				    font-size: 13px;
+				    line-height: 42px;
+				    color: #324b5c;
+				    display: inline-block;
+				    padding: 0 5px;
+				    margin-top: 19px;">
+						<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/south-korea.png" ?> "/>
+					</a>
+				</li>
+				<li class="u02mtool" id="u02cmenu">
+					<a href="#u02countrymenu" style="width: auto;
+				    font-size: 13px;
+				    line-height: 42px;
+				    color: #324b5c;
+				    display: inline-block;
+				    padding: 0 5px;
+				    margin-top: 19px;">
+						<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/japan.png" ?> "/>
+					</a>
+				</li>
+				<!-- country select -->
+				<!--<li class="u02mtool" id="u02cmenu">
 					<a href="#u02countrymenu" class="u02ticon u02regn"><span>Country/Region</span></a>
-				<div class="u02cmenupop u02toolpop"><i></i>
-		<div class="u02countrymenu" data-lbl="country">
-			<ul class="u02cmenu-l1"><li class="u02pttl-li"><h5 class="u02pttl">Country/Region</h5></li>
-				<li class="u02currentcr u02currentdr">
-					<a class="u02clink" href="#open">
-						Americas</a>
-					<!-- LVL 2 -->
-					<div class="u02cmenu-l2" data-lbl="americas">
-						<ul class="u02cmenuc1"><li class="u02cback"><a class="u02cblink" href="#back">
-						Americas</a></li>
-							<li>
-								<a data-lbl="argentina" href="/ar/index.html">Argentina</a></li>
-							<li>
-
-								<a data-lbl="brasil" href="/br/index.html">Brasil</a></li>
-							<li>
-								<a data-lbl="canada-english" href="/ca-en/index.html">Canada - English</a></li>
-							<li>
-								<a data-lbl="canada-french" href="/ca-fr/index.html">Canada - Français</a></li>
-							<li>
-								<a data-lbl="chile" href="/lad/index.html">Chile</a></li>
-							<li>
-								<a data-lbl="columbia" href="/co/index.html">Colombia</a></li>
-							<li>
-								<a data-lbl="costa-rica" href="/cr/index.html">Costa Rica</a></li>
-						</ul>
-						<ul class="u02cmenuc1">
-							<li>
-								<a data-lbl="latin-america" href="/lad/index.html">Latinoamérica</a></li>
-							<li>
-								<a data-lbl="mexico" href="/mx/index.html">México</a></li>
-							<li>
-								<a data-lbl="peru" href="/pe/index.html">Perú</a></li>
-							<li>
-								<a data-lbl="puerto-rico" href="/pr/index.html">Puerto Rico</a></li>
-							<li>
-								<a class="u02currentcc" data-lbl="united-states" href="/index.html">United States</a></li>
-							<li>
-								<a data-lbl="venezuela" href="/ve/index.html">Venezuela</a></li>
-						</ul>
+					<div class="u02cmenupop u02toolpop"><i></i>
 					</div>
-					<!-- / LVL 2 --></li>
-				<li>
-					<a class="u02clink" href="#open">
-						Asia Pacific</a>
-					<!-- LVL 2 -->
-					<div class="u02cmenu-l2" data-lbl="asia-pacific">
-						<ul class="u02cmenuc1"><li class="u02cback"><a class="u02cblink" href="#back">
-						Asia Pacific</a></li>
-							<li>
-								<a data-lbl="asean" href="/asiasouth">ASEAN</a></li>
-							<li>
-								<a data-lbl="australia" href="/au/index.html">Australia</a></li>
-							<li>
-								<a data-lbl="china" href="/cn/index.html">中国</a></li>
-							<li>
-								<a data-lbl="hong-kong" href="/hk/index.html">Hong Kong</a></li>
-							<li>
-								<a data-lbl="india" href="/in/index.html">India</a></li>
-							<li>
-								<a data-lbl="indonesia" href="/id/index.html">Indonesia</a></li>
-							<li>
-								<a data-lbl="japan" href="/jp/index.html">日本</a></li>
-							<li>
-								<a data-lbl="korea" href="/kr/index.html">대한민국</a></li>
-							<li>
-								<a data-lbl="malaysia" href="/my/index.html">Malaysia</a></li>
-						</ul>
-						<ul class="u02cmenuc1">
-							<li>
-								<a data-lbl="mongolia" href="/mn/index.html">Mongolia</a></li>
-							<li>
-								<a data-lbl="new-zealand" href="/nz/index.html">New Zealand</a></li>
-							<li>
-								<a data-lbl="pakistan" href="/pk/index.html">Pakistan</a></li>
-							<li>
-								<a data-lbl="philippines" href="/ph/index.html">Philippines</a></li>
-							<li>
-								<a data-lbl="singapore" href="/sg/index.html">Singapore</a></li>
-							<li>
-								<a data-lbl="sri-lanka" href="/lk/index.html">Sri Lanka</a></li>
-							<li>
-								<a data-lbl="taiwan" href="/tw/index.html">台灣</a></li>
-							<li>
-								<a data-lbl="thailand" href="/th/index.html">Thailand</a></li>
-							<li>
-								<a data-lbl="vietnam" href="/vn/index.html">Vietnam</a></li>
-						</ul>
-					</div>
-					<!-- / LVL 2 --></li>
-				<li>
-					<a class="u02clink" href="#open">
-						Europe</a>
-					<!-- LVL 2 -->
-					<div class="u02cmenu-l2" data-lbl="europe">
-						<ul class="u02cmenuc1"><li class="u02cback"><a class="u02cblink" href="#back">
-						Europe</a></li>
-							<li>
-								<a data-lbl="austria" href="/at/index.html">Österreich</a></li>
-							<li>
-								<a data-lbl="belgium" href="/be/index.html">Belgium</a></li>
-							<li>
-								<a data-lbl="bosnia-and-herzegovina" href="/ba/index.html">Bosna i Hercegovina</a></li>
-							<li>
-								<a data-lbl="bulgaria" href="/bg/index.html">Bulgaria</a></li>
-							<li>
-								<a data-lbl="croatia" href="/hr/index.html">Croatia</a></li>
-							<li>
-								<a data-lbl="cyprus" href="/cy/index.html">Cyprus</a></li>
-							<li>
-								<a data-lbl="czech-republic" href="/cz/index.html">Česká Republika</a></li>
-							<li>
-								<a data-lbl="denmark" href="/dk/index.html">Danmark</a></li>
-							<li>
-								<a data-lbl="estonia" href="/ee/index.html">Eesti</a></li>
-							<li>
-								<a data-lbl="finland" href="/fi/index.html">Suomi</a></li>
-							<li>
-								<a data-lbl="france" href="/fr/index.html">France</a></li>
-							<li>
-								<a data-lbl="germany" href="/de/index.html">Deutschland</a></li>
-							<li>
-								<a data-lbl="greece" href="/gr/index.html">Ελλάδα</a></li>
-							<li>
-								<a data-lbl="hungary" href="/hu/index.html">Magyarország</a></li>
-							<li>
-								<a data-lbl="ireland" href="/ie/index.html">Ireland</a></li>
-							<li>
-								<a data-lbl="italy" href="/it/index.html">Italia</a></li>
-							<li>
-								<a data-lbl="kazakhstan" href="/ru/index.html">Казахстан</a></li>
-							<li>
-								<a data-lbl="latvia" href="/lv/index.html">Latvija</a></li>
-							<li>
-								<a data-lbl="lithuania" href="/lt/index.html">Lietuva</a></li>
-						</ul>
-						<ul class="u02cmenuc1">
-							<li>
-								<a data-lbl="luxembourg" href="/lu/index.html">Luxembourg</a></li>
-							<li>
-								<a data-lbl="malta" href="/mt/index.html">Malta</a></li>
-							<li>
-								<a data-lbl="netherlands" href="/nl/index.html">Nederland</a></li>
-							<li>
-								<a data-lbl="norway" href="/no/index.html">Norge</a></li>
-							<li>
-								<a data-lbl="poland" href="/pl/index.html">Polska</a></li>
-							<li>
-								<a data-lbl="portugal" href="/pt/index.html">Portugal</a></li>
-							<li>
-								<a data-lbl="romania" href="/ro/index.html">România</a></li>
-							<li>
-								<a data-lbl="russia" href="/ru/index.html">Россия и СНГ</a></li>
-							<li>
-								<a data-lbl="serbia-and-montenegro" href="/rs/index.html">Srbija i Crna Gora</a></li>
-							<li>
-								<a data-lbl="slovakia" href="/sk/index.html">Slovensko</a></li>
-							<li>
-								<a data-lbl="slovena" href="/si/index.html">Slovenija</a></li>
-							<li>
-								<a data-lbl="spain" href="/es/index.html">España</a></li>
-							<li>
-								<a data-lbl="sweden" href="/se/index.html">Sverige</a></li>
-							<li>
-								<a data-lbl="switzerland-french" href="/ch-fr/index.html">Suisse - Français</a></li>
-							<li>
-								<a data-lbl="switzerland-german" href="/ch-de/index.html">Schweiz - Deutsch</a></li>
-							<li>
-								<a data-lbl="turkey" href="/tr/index.html">Türkiye</a></li>
-							<li>
-								<a data-lbl="ukraine" href="/ua/index.html">Україна</a></li>
-							<li>
-								<a data-lbl="united-kingdom" href="/uk/index.html">United Kingdom</a></li>
-						</ul>
-					</div>
-					<!-- / LVL 2 --></li>
-				<li>
-					<a class="u02clink" href="#open">
-						Middle East and Africa</a>
-					<!-- LVL 2 -->
-					<div class="u02cmenu-l2" data-lbl="middle-east-and-africa">
-						<ul class="u02cmenuc1"><li class="u02cback"><a class="u02cblink" href="#back">
-						Middle East and Africa</a></li>
-							<li>
-								<a data-lbl="africa" href="/africa/index.html">Africa Region</a></li>
-							<li>
-								<a data-lbl="africa-fr" href="/africa-fr/index.html">Afrique</a></li>
-							<li>
-								<a data-lbl="algeria" href="/dz/index.html">Algéria</a></li>
-							<li>
-								<a data-lbl="bahrain" href="/bh/index.html">Bahrain</a></li>
-							<li>
-								<a data-lbl="egypt" href="/eg/index.html">Egypt</a></li>
-							<li>
-								<a data-lbl="ghana" href="/gh/index.html">Ghana</a></li>
-							<li>
-								<a data-lbl="israel" href="/il/index.html">Israel</a></li>
-							<li>
-								<a data-lbl="jordan" href="/jo/index.html">Jordan</a></li>
-							<li>
-								<a data-lbl="kenya" href="/ke/index.html">Кenya</a></li>
-							<li>
-								<a data-lbl="kuwait" href="/kw/index.html">Kuwait</a></li>
-							<li>
-								<a data-lbl="lebanon" href="/lb/index.html">Lebanon</a></li>
-						</ul>
-						<ul class="u02cmenuc1">
-							<li>
-								<a data-lbl="middle-east-arabic" href="/middleeast-ar/index.html">الشرق الأوسط</a></li>
-							<li>
-								<a data-lbl="middle-east-english" href="/middleeast/index.html">Middle East Region</a></li>
-							<li>
-								<a data-lbl="morocco" href="/ma/index.html">Maroc</a></li>
-							<li>
-								<a data-lbl="nigeria" href="/ng/index.html">Nigeria</a></li>
-							<li>
-								<a data-lbl="oman" href="/om/index.html">Oman</a></li>
-
-							<li>
-								<a data-lbl="qatar" href="/qa/index.html">Qatar</a></li>
-							<li>
-								<a data-lbl="saudi-arabia" href="/sa/index.html">Saudi Arabia</a></li>
-							<li>
-								<a data-lbl="senegal" href="/sn/index.html">Sénégal</a></li>
-							<li>
-								<a data-lbl="south-africa" href="/za/index.html">South Africa</a></li>
-							
-							<li>
-								<a data-lbl="united-arab-emirates" href="/ae/index.html">United Arab Emirates</a></li>
-						</ul>
-					</div>
-					<!-- / LVL 2 --></li>
-			</ul>
-		</div>
-	</div></li>
+				</li> -->
 				<!-- call -->
 				<li class="u02mbttn" id="u02call">
 					<a data-lbl="call" href="javascript:void(0)" class="u02ticon u02call o-call"><span>Call</span></a>
@@ -674,7 +484,7 @@
 			    	modal1.classList.remove("u02m-show");
 			    }
 			}
-			$(".u02toolsloggedout").mouseover(function(){
+			/*$(".u02toolsloggedout").mouseover(function(){
 		    	if(!$(".u02toolsloggedout").hasClass("u02toolopen")){
 			      	$(".u02toolsloggedout").addClass("u02toolopen")
 			    }
@@ -683,7 +493,7 @@
 		    	if($(".u02toolsloggedout").hasClass("u02toolopen")){
 			      	$(".u02toolsloggedout").removeClass("u02toolopen")
 			    }
-		    });
+		    });*/
 		});
 	}(jQuery));
 </script>

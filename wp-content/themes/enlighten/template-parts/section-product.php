@@ -159,90 +159,7 @@ var myFunction = function (){
 	</div>
 </div>
 <!---->
-<div class="cw21 cw21v0 cw21loaded">
-	
-	<div class="cw21slideout">
-		<div class="cw21handle">
-		  <ul class="cw21navigation" data-trackas="cw21navigation">
-		    <li class="cw21help"><a href="#cw21-calltab"><span>Contact</span></a></li>
-			<li class="cw21chat"><div data-lbl="chat-widget" id="atgchat-flyout" class="rn_ChatAvailable">
-				<span>Chat</span>
-				<a id="rn_sccl_4499221_Link" href="javascript:void(0);" onclick="chatLinkClicked();"><span>Chat</span></a></div>
-			</li>
-			<li class="cw21social">
-				
-				<div class="popup" onclick="myFunction()">
-					<a href="#cw21-socialtab"><span>Social</span></a>
-				</div>
-			</li>
-			<li class="cw21signup"><a href="#cw21-signtab"><span>Sign Up</span></a></li>
-		  </ul>
-		</div>
 
-		<div class="cw21w1">
-
-		  <div class="cw21w2 cw21w1top" id="cw21-calltab">
-		    <h4>We're here to help</h4>
-		    <p>Engage a Sales Expert
-		    </p><ul class="icn-list">
-			
-			<li class="icn-telephone">Call Oracle<br>
-			1-800-633-0738 (US)</li>
-			<li class="icn-cv-circle"><a href="javascript:startCallback('0i2wzK12842','customer data')" onclick="navTrack('ocom','en','rhs-contact','callmenow-oracle');">Have Oracle Call You</a></li>
-			<li class="icn-globe"><a href="/corporate/contact/global.html" target="_blank">Global Contacts</a></li>
-			<li class="icn-partner"><a href="https://solutions.oracle.com/scwar/scr/index.html" target="_blank">Find a Partner</a></li>
-			<li class="icn-support-simplified"><a href="http://www.oracle.com/us/support/contact/index.html" target="_blank">Support Directory</a></li>
-		    </ul>
-		  <i class="cw21z1"></i></div>
-
-
-		  <div class="cw21w2" id="cw21-socialtab" data-trackas="cw21-socialtab" style="display: none; left: -320px; top: 132.5px; opacity: 0;">
-		    <p>Follow</p>
-
-		<ul class="cw21-iconfont cw21-sicons">
-
-		<li><a target="_blank" href="https://www.facebook.com/OracleCloudComputing"><div class="icn-img icn-sicons icn-facebook"><span class="screen-reader">Facebook</span></div></a></li>
-
-		<li><a target="_blank" href="http://twitter.com/OracleCloudZone"><div class="icn-img icn-sicons icn-twitter"><span class="screen-reader">Twitter</span></div></a></li>
-
-		      <li><a target="_blank" href="http://www.linkedin.com/groups/Official-Oracle-Cloud-Computing-group-3262238?gid=3262238&amp;trk=hb_side_g"><div class="icn-img icn-sicons icn-linkedin"><span class="screen-reader">LinkedIn</span></div></a></li>
-		      
-		       <li><a target="_blank" href="http://www.youtube.com/user/OracleCloudComputing"><div class="icn-img icn-sicons icn-youtube"><span class="screen-reader">Youtube</span></div></a></li>
-		      <li><a target="_blank" href="http://blogs.oracle.com/cloud"><div class="icn-img icn-sicons icn-blogs"><span class="screen-reader">Blog</span></div></a></li>
-		     
-		    </ul>
-		    <p>Follow Oracle Corporate</p>
-
-
-		<ul class="cw21-iconfont cw21-sicons">
-		<li><a target="_blank" href="http://www.oracle.com/us/social-media/facebook/index.html"><div class="icn-img icn-sicons icn-facebook"><span class="screen-reader">Facebook</span></div></a></li>
-		      
-		<li><a target="_blank" href="http://www.oracle.com/us/social-media/twitter/index.html"><div class="icn-img icn-sicons icn-twitter"><span class="screen-reader">Twitter</span></div></a></li>
-
-		<li><a target="_blank" href="http://www.oracle.com/us/social-media/linkedin/index.html"><div class="icn-img icn-sicons icn-linkedin"><span class="screen-reader">LinkedIn</span></div></a></li>
-
-		<li><a target="_blank" href="https://plus.google.com/u/0/115607918987921226255"><div class="icn-img icn-sicons icn-googleplus"><span class="screen-reader">Google Plus</span></div></a></li>
-		<li><a target="_blank" href="http://www.youtube.com/oracle/"><div class="icn-img icn-sicons icn-youtube"><span class="screen-reader">Youtube</span></div></a></li>
-		    </ul>
-		    <ul class="icn-list">
-		  <li class="icn-cv-circle"><a target="_blank" href="http://www.oracle.com/us/social-media/twitter/index.html">Oracle Social Media Directory</a></li>
-		  <li class="icn-cv-circle"><a target="_blank" href="http://www.oracle.com/us/syndication/feeds/index.html">Oracle RSS Directory</a></li>
-		    </ul>
-		  <i class="cw21z1"></i></div>
-		  
-		  <div class="cw21w2 cw21w1btm" id="cw21-signtab">
-				
-					<h4>
-						Sign up by topic</h4>
-					<ul class="icn-list">
-						<li class="icn-cv-circle">
-							<a href="https://go.oracle.com/subscriptions?l_code=en-us&amp;src1=OW:O:SW" target="_blank">Subscription Center</a></li>
-					</ul>
-				<i class="cw21z1"></i></div>
-		  
-		</div>
-	</div>
-</div>
 <!-- Hết div-->
 <div class="cb25 cb25v2" data-trackas="cb25">
 
@@ -351,7 +268,7 @@ var myFunction = function (){
 
 		<h2>More About Oracle</h2>
 
-		<ul>
+		<ul class="portfolio_slider_wrap">
 			<li class="cb50c1">
 				<a href="http://www.oracle.com/technetwork/oramag/magazine/current-issue/index.html" data-lbl="loc1:cb50-oracle-mag-mar18">
 					<img src="/a/ocom/img/cb50-oracle-mag-mar18.jpg" alt="Blockchain Builds Trust">
