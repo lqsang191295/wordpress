@@ -1171,7 +1171,7 @@ margin: 0;
 .section_title{
 	text-align:center;
 	font-family: 'Titillium Web', sans-serif;
-    padding:30px 0 0;
+    /*padding:30px 0 0;*/
     position:relative;
 	z-index:999;
 	display:block;
@@ -1218,14 +1218,14 @@ display:block;
 .title_two
 {
 	color:#2d7fc7;
-	font-size:40px;
+	font-size:30px;
 	font-weight:700;
 	display:block;
 	line-height:50px;
 }
 #section_portfolio .portfolio_slider_wrap{
 	margin:50px 0px 0 -1px;
-	padding-bottom: 50px;
+	/*padding-bottom: 50px;*/
 	overflow: hidden;
 }
 #section_portfolio .portfolio_slider_wrap .owl-stage-outer{
@@ -1238,7 +1238,7 @@ display:block;
 }
 .portfolio_slider_wrap .title_content_wrap{
 	padding:20px;
-	text-align:center;
+	text-align:left;
 }
 .portfolio_slider_wrap .anchor_title_wrap a{
 	color:#333333;
@@ -1309,10 +1309,11 @@ porfolio image hover effects and widget recent post section*/
     overflow: hidden;
     width: 100%;
 }
-.portfolio_slide_loop .image_wrap_port a:hover img,
+.portfolio_slide_loop .image_wrap_port .image_wrap_port_a_hover:hover img,
 .footer_RN_wrap .rn_post_loop .rn_image a:hover img {
     transform: scale(1.1);
 }
+
 .portfolio_slide_loop .image_wrap_port a img,
 .footer_RN_wrap .rn_post_loop .rn_image a img {
     -webkit-transition: all 900ms ease;
@@ -1324,7 +1325,7 @@ porfolio image hover effects and widget recent post section*/
     height: auto;
     display: block;
 }
-.portfolio_slide_loop .image_wrap_port a:hover:after,
+.portfolio_slide_loop .image_wrap_port_a_hover a:hover:after,
 .footer_RN_wrap .rn_post_loop .rn_image a:hover:after {
     opacity: 1;
     left: 50%;
@@ -1368,6 +1369,14 @@ porfolio image hover effects and widget recent post section*/
 /*================================================
    			porfolio owl carousel
 ======================================================*/
+.icn-arrowthn:hover{
+	-webkit-box-shadow: 0px 5px 25px 0px rgba(64,64,64,0.3);
+    -moz-box-shadow: 0px 5px 25px 0px rgba(64,64,64,0.3);
+    box-shadow: 0px 5px 25px 0px rgba(64,64,64,0.3);
+    transition: transform 0.3s
+
+}
+
 .service_slider .owl-item.active,
 .service_slider .owl-item{
 	color:#fff;
@@ -7955,7 +7964,7 @@ a:hover *:after,a:hover:after,a:hover *:before,a:hover:before,a:focus *:after,a:
 }
 
 .icn-arrowthn:before {
-    content: "\ea60"
+    content: url("/surehcs1/wp-content/uploads/2018/03/icons8-forward-arrow-32.png");
 }
 
 .icn-asessment:before {
@@ -8159,7 +8168,16 @@ a:hover *:after,a:hover:after,a:hover *:before,a:hover:before,a:focus *:after,a:
 }
 
 .icn-cv-right,.icn-arrowthn {
-    position: relative
+    position: relative;
+    cursor: pointer;
+}
+
+.icn-arrowthn:hover{
+	background: #ffb837;	
+}
+
+.image_wrap_port_title_hover {
+	color: #fff !important;
 }
 
 .rtl .icn-cv-circle:before {
@@ -14178,7 +14196,8 @@ body:not(.f11v6) .cb50 {
     left: auto;
     font-size: 3.5em;
     top: 50%;
-    margin-top: -0.5em
+    margin-top: -0.5em;
+    margin-right: 0.2em;
 }
 
 .cb50v1 .cb50w3 {
@@ -16693,7 +16712,7 @@ div.sharewidget div.icn-share:before,div.sharewidget div.icn-share-alt:before {
     display: block;
     position: relative;
     width: 100%;
-    height: 0px
+    background-color: #e3e7ea;
 }
 
 .hp11w2>h3 {
@@ -16765,10 +16784,11 @@ div.sharewidget div.icn-share:before,div.sharewidget div.icn-share-alt:before {
 .hp11w3 h3 {
     display: inline-block;
     float: left;
-    max-width: 75%;
+    max-width: 100%;
     font-size: 1.9rem;
     font-weight: normal;
-    padding-right: 0px
+    padding-right: 0px;
+    color: #fff;
 }
 
 .hp11w3 .hp11Arrow {
@@ -16796,7 +16816,7 @@ div.sharewidget div.icn-share:before,div.sharewidget div.icn-share-alt:before {
 }
 
 .hp11w3 .hp11Video:before {
-    content: "\eb3f";
+    /*content: "\eb3f";*/
     width: 44px;
     height: 36px;
     position: absolute;
@@ -16812,12 +16832,13 @@ div.sharewidget div.icn-share:before,div.sharewidget div.icn-share-alt:before {
 .hp11w3 ul {
     text-align: left;
     white-space: nowrap;
-    width: 100%
+    width: 100%;
+    margin-left: 0px;
 }
 
 .hp11w3 ul li {
     text-align: left;
-    width: 27.6%;
+    width: 100%;
     max-width: 339px;
     min-width: 100px;
     height: auto;
@@ -16926,7 +16947,7 @@ div.sharewidget div.icn-share:before,div.sharewidget div.icn-share-alt:before {
 .hp11w4 {
     padding: 1.5em 0 1.5em 0;
     margin: auto;
-    background-color: #e3e7ea;
+    /*background-color: #e3e7ea;*/
     max-width: 1182px
 }
 
@@ -16963,6 +16984,7 @@ div.sharewidget div.icn-share:before,div.sharewidget div.icn-share-alt:before {
     position: absolute;
     padding: 0 1.5em;
     color: #FFF;
+    width: 100%;
     top: 71%;
     visibility: hidden;
     -webkit-transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
@@ -16979,7 +17001,12 @@ div.sharewidget div.icn-share:before,div.sharewidget div.icn-share-alt:before {
     font-weight: 600;
     color: #f29111;
     margin-bottom: .2em;
-    width: 80%
+    width: 90%;
+    font-size: 1.1em;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .hp11w7 .hp11GoBtn {
@@ -17144,7 +17171,8 @@ div.sharewidget div.icn-share:before,div.sharewidget div.icn-share-alt:before {
         text-align: center;
         padding: 0;
         white-space: normal;
-        margin-right: 0px
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .hp11w3 ul li {

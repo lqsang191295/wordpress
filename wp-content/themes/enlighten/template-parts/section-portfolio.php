@@ -18,11 +18,11 @@ if($enlighten_enable_portfolio){
                     if($enlighten_title_one || $enlighten_title_two){
                     ?>
                     <div class="effect_title">
-                        <div class="after-effet1"></div>
+                        <!--<div class="after-effet1"></div>-->
                         <div class="section_title">
-                              <?php if($enlighten_title_one){ ?>
+                              <!--<?php if($enlighten_title_one){ ?>
                                 <span class="title_one wow fadeInUp"><?php echo esc_html($enlighten_title_one); ?></span>
-                                <?php } ?>
+                                <?php } ?>-->
                                 <?php if($enlighten_title_two){ ?>
                                 <span class="title_two wow fadeInUp"><?php echo esc_html($enlighten_title_two); ?></span>
                                 <?php } ?>
@@ -34,21 +34,39 @@ if($enlighten_enable_portfolio){
                                 $enlighten_port_query->the_post();
                                 $enlighten_image_port = wp_get_attachment_image_src(get_post_thumbnail_id(),'enlighten-portfolio-image');
                                 $enlighten_image_url = $enlighten_image_port['0'];
+                                $enlighten_title = get_the_title();
+                                $enlighten_content = get_the_content();
                                 ?>
                                     <div class="portfolio_slide_loop wow fadeInUp">
-                                        <div class="image_wrap_port wow fadeInUp"><a href="<?php the_permalink(); ?>"><img src="<?php echo esc_url($enlighten_image_url); ?>" /></a></div>
+                                        <div class="image_wrap_port wow fadeInUp">
+                                            <a class="image_wrap_port_a_hover" href="<?php the_permalink(); ?>">
+                                                <img src="<?php echo esc_url($enlighten_image_url); ?>" />
+                                            </a>
+                                            <div class="icn-arrowthn cb50w2" style="height: 57px;  background: orange;">
+                                                <h3 style="margin: 0;
+                                                            color: #fff;
+                                                            font-weight: bold;
+                                                            font-size: 18px;
+                                                            border-spacing: 0;
+                                                            padding: 1em 50px 1em 1em;
+                                                            display: table-cell;
+                                                            vertical-align: middle;">
+                                                    <span class="">
+                                                    <a class="image_wrap_port_title_hover" href="<?php the_permalink(); ?>"><?php echo esc_html($enlighten_title); ?></a>
+                                                </span>
+                                                </h3>
+                                            </div>
+                                        </div>
                                         <div class="title_content_wrap">
-                                            <?php
-                                                $enlighten_title = get_the_title();
-                                                $enlighten_content = get_the_content();
+                                            <!--<?php
                                                 if($enlighten_title){
                                              ?>
-                                            <div class="anchor_title_wrap">
+                                            <div class="anchor_title_wrap cb50c1">
                                                 <span class="port_title wow fadeInUp">
                                                     <a href="<?php the_permalink(); ?>"><?php echo esc_html($enlighten_title); ?></a>
                                                 </span>
                                             </div>
-                                            <?php } ?>
+                                            <?php } ?>-->
                                             <?php if($enlighten_content){ ?>
                                             <div class="port_content_wrap wow fadeInUp"><?php echo wp_kses_post(wp_trim_words($enlighten_content,'20','...')); ?></div>
                                             <?php } ?>
