@@ -2130,6 +2130,33 @@ our partners section
 #section_client .client_image{
 	overflow: hidden;
 }
+
+#section_customer {
+	padding-bottom: 30px;
+}
+
+#section_customer .client_image img{
+	width: auto;
+	margin:0 auto;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+#section_customer .section_title{
+	margin-bottom: 30px;
+}
+#section_customer .client_image img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#section_customer .client_image{
+	overflow: hidden;
+}
 /*=========================
      footer_area
 ===============================*/
@@ -3625,7 +3652,6 @@ ol.decimal li {
 
 .obullets li {
     padding: 0 0 .75em 20px;
-    background: url("https://www.oracle.com/asset/web/i/obullet.png") no-repeat 4px 8px transparent;
     display: table
 }
 
@@ -6114,7 +6140,6 @@ ul.icn-list.icn-circle-list.icn-hover li.bglinkblue:focus:before,ul.icn-list.icn
 /*! FONT - ORACLE ICONS */
 @font-face {
     font-family: 'oracleicons';
-    src: url("https://www.oracle.com/asset/web/fonts/oracleicons-v27.woff2?15.2.0") format("woff2"),url("https://www.oracle.com/asset/web/fonts/oracleicons-v27.ttf?15.2.0") format("truetype"),url("https://www.oracle.com/asset/web/fonts/oracleicons-v27.woff?15.2.0") format("woff"),url("https://www.oracle.com/asset/web/fonts/oracleicons-v27.svg?15.2.0#oracleicons") format("svg");
     font-weight: normal;
     font-style: normal
 }
@@ -9621,6 +9646,10 @@ a.u02xlink:focus:after,a.u02xlink:active:after,a.u02xlink:hover:after {
     background-image: url("data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTcuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDM2MyAzNjMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM2MyAzNjM7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMzJweCIgaGVpZ2h0PSIzMnB4Ij4KPHBhdGggZD0iTTI3Ny43Myw5NC4xMjNjMCwxMC45OTctOC4wMDYsMTcuNjg1LTEzLjg1MiwyMi41OTNjLTIuMjE0LDEuODU5LTYuMzM1LDUuMjUxLTYuMzI0LDYuNTE4ICBjMC4wNCw0Ljk3LTMuOTU2LDguOTM5LTguOTI3LDguOTM5Yy0wLjAyNSwwLTAuMDUsMC0wLjA3NSwwYy00LjkzNiwwLTguOTU4LTMuODQ3LTguOTk4LTguNzkyICBjLTAuMDc5LTkuNzQ3LDcuMDM0LTE1LjU4NCwxMi43NS0yMC4zODNjNC40ODUtMy43NjYsNy40MjYtNi40MTYsNy40MjYtOC44NDFjMC00LjkwOS0zLjk5NC04LjkwMy04LjkwMy04LjkwMyAgYy00LjkxMSwwLTguOTA2LDMuOTk0LTguOTA2LDguOTAzYzAsNC45NzEtNC4wMjksOS05LDlzLTktNC4wMjktOS05YzAtMTQuODM0LDEyLjA2OS0yNi45MDMsMjYuOTA0LTI2LjkwMyAgQzI2NS42NjEsNjcuMjUzLDI3Ny43Myw3OS4yODgsMjc3LjczLDk0LjEyM3ogTTI0OC44MDEsMTQwLjQ4MWMtNC45NzEsMC04LjgwMSw0LjAyOS04LjgwMSw5djAuMDY5ICBjMCw0Ljk3MSwzLjgzMSw4Ljk2Niw4LjgwMSw4Ljk2NnM5LTQuMDY0LDktOS4wMzVTMjUzLjc3MiwxNDAuNDgxLDI0OC44MDEsMTQwLjQ4MXogTTY3LjM5MiwyMDMuMTc0Yy00Ljk3MSwwLTksNC4wMjktOSw5ICBzNC4wMjksOSw5LDloMC43NWM0Ljk3MSwwLDktNC4wMjksOS05cy00LjAyOS05LTktOUg2Ny4zOTJ6IE05OC42NzEsMjAzLjE3NGMtNC45NzEsMC05LDQuMDI5LTksOXM0LjAyOSw5LDksOWgwLjc0OSAgYzQuOTcxLDAsOS00LjAyOSw5LTlzLTQuMDI5LTktOS05SDk4LjY3MXogTTM2Myw1OS40MjV2MTAxLjMwMWMwLDIzLjk4NS0xOS4yMzIsNDMuNDQ4LTQzLjIxNyw0My40NDhIMjAzLjA2NiAgYy0yLjI4MiwwLTQuMTYxLTAuMDEzLTUuNzMzLTAuMDQ2Yy0xLjY0Ny0wLjAzNC0zLjUwMS0wLjA0Ny00LjIyNCwwLjAzM2MtMC43NTMsMC41LTIuNTk5LDIuMTkxLTQuMzc4LDMuODMgIGMtMC43MDUsMC42NDktMS41MDMsMS4zNjMtMi4zNjQsMi4xNDlsLTMzLjAyMiwzMC4wOThjLTIuNjM0LDIuNDAzLTYuNTMxLDMuMDI1LTkuNzkzLDEuNTg3Yy0zLjI2Mi0xLjQzOS01LjU1Mi00LjY2OS01LjU1Mi04LjIzNCAgdi05NS40MTdINDMuNzJjLTE0LjA2MiwwLTI1LjcyLDExLjUyMy0yNS43MiwyNS41ODN2MTAxLjMwMWMwLDE0LjA2MSwxMS42NTksMjUuMTE2LDI1LjcyLDI1LjExNmgxMzAuMzc0ICBjMi4yNDUsMCw0LjM0NSwxLjAzMSw2LjAwMywyLjU0NUwyMDcsMzE3LjUyM3YtODUuNTM5YzAtNC45NzEsNC4wMjktOSw5LTlzOSw0LjAyOSw5LDl2MTA1LjkzOGMwLDMuNTY1LTIuMDQsNi43NDctNS4zMDMsOC4xODYgIGMtMS4xNjcsMC41MTUtMi4zMzksMC43MTgtMy41NjYsMC43MThjLTIuMjA0LDAtNC4zNzgtMC45MDUtNi4wNjktMi40NDlsLTM5LjQ1Ny0zNi4yMDRINDMuNzJjLTIzLjk4NiwwLTQzLjcyLTE5LjEzLTQzLjcyLTQzLjExNiAgVjE2My43NTdjMC0yMy45ODUsMTkuNzM0LTQzLjU4Myw0My43Mi00My41ODNIMTM4VjU5LjQyNWMwLTIzLjk4NiwxOS44ODUtNDMuMjUxLDQzLjg3MS00My4yNTFoMTM3LjkxMyAgQzM0My43NjgsMTYuMTc0LDM2MywzNS40MzksMzYzLDU5LjQyNXogTTM0NSw1OS40MjVjMC0xNC4wNjEtMTEuMTU3LTI1LjI1MS0yNS4yMTctMjUuMjUxSDE4MS44NzEgIEMxNjcuODEsMzQuMTc0LDE1Niw0NS4zNjQsMTU2LDU5LjQyNXY2OS44MzN2ODMuOTM0bDE4LjA5NS0xNi4zNTNjMC44MzgtMC43NjUsMS43NzctMS40NjUsMi40NjItMi4wOTcgIGM4LjI2My03LjYxNCwxMC4zNzctOC44MzEsMjEuMTU1LTguNjA5YzEuNDcsMC4wMzEsMy4yMjEsMC4wNDIsNS4zNTQsMC4wNDJoMTE2LjcxN2MxNC4wNiwwLDI1LjIxNy0xMS4zODgsMjUuMjE3LTI1LjQ0OFY1OS40MjV6IiBmaWxsPSIjMDAwMDAwIi8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=")	
 }
 
+.u02question:after{
+    background-image: none !important;
+}
+
 #txtSearch:focus+.u02searchbttn,.u02mtool.u02toolopen .u02ticon:after,.u02mtool .u02ticon:focus:after,.u02ticon:hover:before,.u02ticon:focus:before,.u02mobi .u02ticon:hover:before,.u02mobi .u02tools .u02ticon.u02call:before,.u02mobi .u02tools .u02ticon.u02chat:before,.u02mobi .u02tools .u02toolopen .u02ticon.u02user:before,.u02mobi .u02tools .u02toolopen .u02ticon.u02regn:before,.u02toolopen .u02ticon:before {
     opacity: 1;
     background-repeat: no-repeat;
@@ -9758,7 +9787,7 @@ a.u02xlink:focus:after,a.u02xlink:active:after,a.u02xlink:hover:after {
 }
 
 .u02toolpop>i {
-    left: 0;
+    left: 32%;
     top: -13px;
     z-index: 6;
     opacity: 1;
@@ -9784,6 +9813,20 @@ a.u02xlink:focus:after,a.u02xlink:active:after,a.u02xlink:hover:after {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg)
+}
+
+.u02mflag {
+	width: auto;
+    font-size: 13px;
+    line-height: 42px;
+    color: #324b5c;
+    display: inline-block;
+    padding: 0 5px;
+    margin-top: 19px;
+}
+
+.u02mflagglobal:before{
+	content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKhSURBVEhLjZVNSFRRGIbHVCqCFrUIdy2ioDBJMNyURdFiWge5mEWLNIZqJUhBZhBh+7JWLcKgILBfAkkrCCGKVpX9QfajJdmPWaFmMz3vve9M93ZnyBeeOed83/t9c++ce8+kyimfzy/I5XJp6IZ+eAwP4Sochjpb5yYaVlHUCqMg3YcbcBouwHkYxifdZt7o0vLCtAT6VcH4DtRUV9sDs47vhxVMWxhvwW84yLrCbeIiuRSeqlhi/gnGYBia4RvoC47YvwUewbT9J4JGURHX7QdXKjH/AsdgEuqhFlbLy6i7WgP7YAQmXKa6PUHDggi0OlcUsVkYY7rVtqKIt8EQ5EJ3KJY/oKZgmg+jzgVi/RK08/otqwNjRMQbQHswDpLGj67tLpjSChTE+hJDollUeLbDZ3xdjH1wHcZdr3i1TKccuAlqWuX6ssJ3XDUS89dwBQYcUqxJJjXUzmuTDhEv/dhYeDJheXnh2S3jE5iAs3AN9HI0uE9C5HpcnxC5X5526lF7QOAM9MJ62AC73Cchcn1hbVLkZkBPU7uMuspzsA30eMmgXa53r5iIr4PCEzCl8V8Rz8jYASOsKxgHw1SQlJrdLybii2AxNEG0+Vd9EFslU50Xm+Gi5lER+wA73TMm0vPIvbdvCgZgyOngCu6ADhS9ri9kjIpYxtaYiOt8mbTnDfyErNOBoRGkvXiWMxafSYn1WltjIt7m/CvQxj1jGX+5CB4AHY07GJdB8Joz9jJU2hYTOb1x9+Au6JyodeqvKNbmnQSdr0dhI3yHDltiIr6Qmk7GQdApmHaqtDBkQQ31m+mluQwrndYFVLLWRusvaxqew9z+pjDWgP6KdKDo59AX6Zh8CzOOaZ1l+t+zJSEVwSZoAd12O2SgeAellUr9Aay+h4BLazdcAAAAAElFTkSuQmCC");
 }
 
 .u02toolopen .u02toolpop {
@@ -10345,6 +10388,10 @@ a.u02acclink:focus,#u02usertools a:focus,.u02usertools a:focus {
     padding: 0 19px
 }
 
+#u02cmenuglobal {
+	display: none;
+}
+
 @media (min-width: 0) and (max-width: 1600px) {
     .u02dtop .u02li0 .u02user.u02toolpop {
         left:-278px
@@ -10462,7 +10509,8 @@ a.u02acclink:focus,#u02usertools a:focus,.u02usertools a:focus {
     }
 
     .f11 .u02user.u02toolpop {
-        left: -396px
+    	width: 233px;
+        left: -128px
     }
 
     .f11 .u02user.u02toolpop>i:after {
@@ -10475,6 +10523,10 @@ a.u02acclink:focus,#u02usertools a:focus,.u02usertools a:focus {
 
     .f11 .u02tools a.u02ticon {
         margin-top: 8px
+    }
+
+    .f11 .u02tools a.u02mflag {
+        margin-top: 16px !important;
     }
 
     .f11 .u02tools a.u02ticon:before {
@@ -10543,6 +10595,14 @@ a.u02acclink:focus,#u02usertools a:focus,.u02usertools a:focus {
 
     .f11 .u02dtop .u02li0 .u02cmenupop.u02toolpop>i:after {
         left: 536px
+    }
+
+    .f11 #u02cmenuflag {
+        display: none;
+    }
+
+    .f11 #u02cmenuglobal {
+    	display: block;
     }
 }
 
@@ -10783,6 +10843,10 @@ a.u02acclink:focus,#u02usertools a:focus,.u02usertools a:focus {
         float: none;
         text-align: center;
         padding: 8px
+    }
+
+    .f11 .u02mtoolglobal {
+    	width: 100% !important; 
     }
 
     .f11 .u02tools>ul>li.u02mtool>a {
@@ -11890,7 +11954,6 @@ a#u02modal-close:focus {
 #u10 h3 {
     display: none;
     margin: 0 0 0.6em 0;
-    background: url("https://www.oracle.com/asset/web/i/u10-logo-sprite.png") 0 0 no-repeat;
     text-indent: -30000px
 }
 
@@ -12371,7 +12434,6 @@ ul.u10-links li a:focus {
     width: 200%;
     height: 100%;
     padding: 0 !important;
-    background: url("https://www.oracle.com/asset/web/i/u10-logo-sprite.png") 0 0 no-repeat;
     text-indent: -30000px;
     -moz-outline: 0;
     background-size: 100%
@@ -12394,7 +12456,6 @@ ul.u10-links li a:focus {
 }
 
 #u10 .scl-icons li a {
-    background: url("https://www.oracle.com/asset/web/i/u10-sprite.svg") 0 0 no-repeat;
     background-size: auto 100%;
     outline: 0;
     -moz-outline: 0;
@@ -12667,12 +12728,10 @@ ul.u10-links li a:focus {
         top: 13px;
         width: 16px;
         height: 16px;
-        background: url("https://www.oracle.com/asset/web/i/u10-logo-sprite.png") no-repeat -1628px 0px;
         background-size: auto 122px
     }
 
     .f11 .u10w3.u10active .u10btn {
-        background: url("https://www.oracle.com/asset/web/i/u10-logo-sprite.png") no-repeat -1628px -17px
     }
 
     .f11 #u10 ul.scl-icons {
@@ -13750,7 +13809,6 @@ body.u24show .pghero+.u03 {
 
 .cb25w5 .cb25w3 a:before {
     content: "";
-    background: url("https://www.oracle.com/asset/web/i/cb25-sprite.png") no-repeat;
     background-size: 100% auto;
     position: absolute;
     height: 1.5em;
@@ -18373,7 +18431,6 @@ div.bcvideo div.video-js:focus {
     line-height: 1;
     width: 25%;
     content: "" !important;
-    background: url(https://www.oracle.com/asset/web/i/videoplayer-playbtn.png) 50% 50% no-repeat;
     opacity: 0.8;
     position: absolute;
     top: 50%;
@@ -18490,7 +18547,6 @@ div.bcvideo div.video-js:focus {
     line-height: 68px;
     width: 121px;
     content: '' !important;
-    background: url("https://www.oracle.com/asset/web/i/videoplayer-playbtn.png") 50% 50% no-repeat;
     background-size: 30%
 }
 
@@ -18557,7 +18613,6 @@ div.bcvideo div.video-js:focus {
 }
 
 .bcvideo .video-js #bcc_link_container .bcc_cta {
-    background: url("https://www.oracle.com/asset/web/i/videoplayer-chevron.png") no-repeat;
     background-color: #007f9c;
     background-position: 11px center;
     height: 32px;
@@ -19126,7 +19181,6 @@ div.truste-image {
 
 /*! VENDOR - SLICK CAROUSEL */
 .slick-loading .slick-list {
-    background: #fff url("https://www.oracle.com/asset/web/i/w01-loader.gif") center center no-repeat
 }
 
 .slick-prev,.slick-next {

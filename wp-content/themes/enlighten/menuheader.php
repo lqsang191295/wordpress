@@ -174,7 +174,7 @@
 			<ul>
 				<!-- user tools -->
 				<li class="u02mtool u02toolsloggedout">
-					<a href="javascript:void(0)" class="u02ticon u02question u02user">
+					<a href="<?php echo get_home_url() . "/community" ?>" class="u02ticon u02question u02user">
 						<span class="u02signin">Q & A</span>
 					</a>
 					
@@ -198,60 +198,62 @@
 
 				</li>
 
-				<li class="u02mtool" id="u02cmenu">
-					<a href="#u02countrymenu" style="width: auto;
-				    font-size: 13px;
-				    line-height: 42px;
-				    color: #324b5c;
-				    display: inline-block;
-				    padding: 0 5px;
-				    margin-top: 19px;">
+				<li class="u02mtool u02mtoolflag" id="u02cmenuflag">
+					<a class="u02mflag" href="javascript:void(0)">
 						<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/vietnam.png" ?> "/>
 					</a>
 				</li>
-				<li class="u02mtool" id="u02cmenu">
-					<a href="#u02countrymenu" style="width: auto;
-				    font-size: 13px;
-				    line-height: 42px;
-				    color: #324b5c;
-				    display: inline-block;
-				    padding: 0 5px;
-				    margin-top: 19px;">
+				<li class="u02mtool u02mtoolflag" id="u02cmenuflag">
+					<a class="u02mflag" href="javascript:void(0)">
 						<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/united-states.png" ?> "/>
 					</a>
 				</li>
-				<li class="u02mtool" id="u02cmenu">
-					<a href="#u02countrymenu" style="width: auto;
-				    font-size: 13px;
-				    line-height: 42px;
-				    color: #324b5c;
-				    display: inline-block;
-				    padding: 0 5px;
-				    margin-top: 19px;">
+				<li class="u02mtool u02mtoolflag" id="u02cmenuflag">
+					<a class="u02mflag" href="javascript:void(0)">
 						<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/south-korea.png" ?> "/>
 					</a>
 				</li>
-				<li class="u02mtool" id="u02cmenu">
-					<a href="#u02countrymenu" style="width: auto;
-				    font-size: 13px;
-				    line-height: 42px;
-				    color: #324b5c;
-				    display: inline-block;
-				    padding: 0 5px;
-				    margin-top: 19px;">
+				<li class="u02mtool u02mtoolflag" id="u02cmenuflag">
+					<a class="u02mflag" href="javascript:void(0)">
 						<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/japan.png" ?> "/>
 					</a>
 				</li>
-				<li class="u02mtool" id="u02cmenu">
-					<a href="#u02countrymenu" style="width: auto;
-				    font-size: 13px;
-				    line-height: 42px;
-				    color: #324b5c;
-				    display: inline-block;
-				    padding: 0 5px;
-				    margin-top: 19px;">
+				<li class="u02mtool u02mtoolflag" id="u02cmenuflag">
+					<a class="u02mflag" href="javascript:void(0)">
 						<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/china.png" ?> "/>
 					</a>
+				</li>
+				<li class="u02mtool u02mtoolglobal" id="u02cmenuglobal">
+					<a class="u02mflag u02mflagglobal" href="javascript:void(0)">
+						<!--<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/world.png" ?> "/>-->
+					</a>
+					<div class="u02user u02toolpop u02init" data-lbl="profile"><i></i>
+						<span>
+							<a class="u02mflag" href="javascript:void(0)">
+								<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/vietnam.png" ?> "/>
+							</a>
+						</span>
+						<span>
+							<a class="u02mflag" href="javascript:void(0)">
+								<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/united-states.png" ?> "/>
+							</a>
+						</span>
+						<span>
+							<a class="u02mflag" href="javascript:void(0)">
+								<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/south-korea.png" ?> "/>
+							</a>
+						</span>
+						<span>
+							<a class="u02mflag" href="javascript:void(0)">
+								<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/japan.png" ?> "/>
+							</a>
+						</span>
+						<span>
+							<a class="u02mflag" href="javascript:void(0)">
+								<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/china.png" ?> "/>
+							</a>
+						</span>
+					</div>
 				</li>
 				<!-- country select -->
 				<!--<li class="u02mtool" id="u02cmenu">
@@ -285,6 +287,37 @@
 				<a data-lbl="contact-oracle:global-contacts" href="/corporate/contact/global.html" class="u02modlink">Global Contacts</a>
 			</div>
 
+		</div>
+	<a id="u02modal-close" href="javascript:void(0)" ><em>Close</em></a></div><div class="u02modalw3" tabindex="0"></div></div>
+</div>
+
+<div class="u02modal u02m-call" id="u02modalflag"><div class="u02modalw1"><div class="u02modalw2"><a id="u02modfpoint" href="#"></a>
+		<div class="u02mod u02callmodal">
+			<span>
+				<a class="u02mflag" href="javascript:void(0)">
+					<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/vietnam.png" ?> "/>
+				</a>
+			</span>
+			<span>
+				<a class="u02mflag" href="javascript:void(0)">
+					<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/united-states.png" ?> "/>
+				</a>
+			</span>
+			<span>
+				<a class="u02mflag" href="javascript:void(0)">
+					<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/south-korea.png" ?> "/>
+				</a>
+			</span>
+			<span>
+				<a class="u02mflag" href="javascript:void(0)">
+					<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/japan.png" ?> "/>
+				</a>
+			</span>
+			<span>
+				<a class="u02mflag" href="javascript:void(0)">
+					<img src="<?php echo get_home_url() . "/wp-content/uploads/2018/03/china.png" ?> "/>
+				</a>
+			</span>
 		</div>
 	<a id="u02modal-close" href="javascript:void(0)" ><em>Close</em></a></div><div class="u02modalw3" tabindex="0"></div></div>
 </div>
@@ -337,9 +370,12 @@
 			//// Hover menu
 			
 		    $("div.u02menu").mouseover(function(){
-		    	if(!$("#u02main").hasClass("u02opened")){
-			      	$("#u02main").addClass("u02opened");
-			    }
+		    	width = $(window).width();
+		    	if(width > 770){
+			    	if(!$("#u02main").hasClass("u02opened")){
+				      	$("#u02main").addClass("u02opened");
+				    }
+				}
 		    })
 		    .mouseout(function(){
 		    	if(!$($(this)[0]).is(":hover")){
@@ -369,7 +405,7 @@
 		    $("#u02menulink").click(function(){
 		    	width = $(window).width();
 		    	var height = $(window).height();
-		    	if(width <= 600){
+		    	if(width <= 770){
 		    		if($("#heardermenumobi").hasClass("u02mobiotools")){
 		    			$("#heardermenumobi").removeClass("u02mobiotools");
 		    		}else{
@@ -505,6 +541,44 @@
 			      	$(".u02toolsloggedout").removeClass("u02toolopen")
 			    }
 		    });*/
+
+		    ///
+		    /*$("#u02cmenuglobal").click(function(){
+		    	if(!$("#u02modalflag").hasClass("u02m-show")){
+		    		$("#u02modalflag").addClass("u02m-show");
+		    	}
+		    })
+		    $("#u02modal-close").click(function(){
+				if($("#u02modalflag").hasClass("u02m-show")){
+		    		$("#u02modalflag").removeClass("u02m-show");
+		    	}
+		    })*/
+		    $("#u02cmenuglobal").mouseover(function(){
+		    	width = $(window).width();
+		    	if(width > 770){
+			    	if(!$(".u02mtoolglobal").hasClass("u02toolopen")){
+				      	$(".u02mtoolglobal").addClass("u02toolopen")
+				    }
+				}
+		    })
+		    .mouseout(function(){
+		    	width = $(window).width();
+		    	if(width > 770){
+			    	if($(".u02mtoolglobal").hasClass("u02toolopen")){
+				      	$(".u02mtoolglobal").removeClass("u02toolopen")
+				    }
+				}
+		    });
+		    $("#u02cmenuglobal").click(function(){
+		    	width = $(window).width();
+		    	if(width <= 770){
+			    	if(!$(".u02mtoolglobal").hasClass("u02toolopen")){
+				      	$(".u02mtoolglobal").addClass("u02toolopen")
+				    }else {
+				    	$(".u02mtoolglobal").removeClass("u02toolopen")
+				    }
+				}
+		    })
 		});
 	}(jQuery));
 </script>
