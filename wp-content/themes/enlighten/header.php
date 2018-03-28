@@ -126,5 +126,9 @@
             <?php get_template_part('menuheader', ''); ?>
         </div>
 
-    <?php do_action('enlighten_header_banner'); ?>
-     <?php get_template_part('template-parts/section-action', ''); 
+    <?php
+        if(is_category()){ 
+            do_action('enlighten_header_banner'); 
+        }
+    ?> 
+    <?php get_template_part('template-parts/section-action', ''); 

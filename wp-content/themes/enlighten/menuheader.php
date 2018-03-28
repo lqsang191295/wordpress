@@ -339,10 +339,19 @@
 			var $window = $(window),
 		        $html = $('html');
 		    var isClick = true;
-		    
+		    setInterval(function(){
+		    	var u02nav = $(".u02nav").height();
+		    	$(".n2-ss-align").css({
+					"padding-top": u02nav + "px"
+				})
+			    var height = $(window).height();
+					   		$(".n2-grab").height(height - 115 - 80 - 2);
+		    })
 		    
 
 		    $window.resize(function resize(){
+
+
 		        var width = $(window).width();
 				if(width < 770){
 					if(!$("#u02").hasClass("u02mobi")){
@@ -360,8 +369,7 @@
 		    		}
 		    		if(width > 1100){
 			    		setTimeout(function(){
-							var height = $(window).height();
-					   		$(".n2-grab").height(height - 115 - 80 - 2);
+							
 					    }, 500);
 			    	}
 				}

@@ -9,7 +9,10 @@
 
 get_header(); 
 $enlighten_post_id = get_the_ID();
+echo "string";
+echo $enlighten_post_id;
 $enlighten_page_layout = esc_attr(get_post_meta( $enlighten_post_id, 'enlighten_sidebar_layout', true ));
+echo $enlighten_page_layout;
 if($enlighten_page_layout == ''){
     $enlighten_page_layout = 'right';
 }

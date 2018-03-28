@@ -4244,7 +4244,7 @@ N2Require('History', [], [], function ($, scope, undefined) {
     History.prototype.endBatch = function () {
         if (this.isEnabled()) {
             if (this.currentBatch.parent == undefined) {
-                debugger;
+                //debugger;
             }
             this.currentBatch = this.currentBatch.parent;
         }

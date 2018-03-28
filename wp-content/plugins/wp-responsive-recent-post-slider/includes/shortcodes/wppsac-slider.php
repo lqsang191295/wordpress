@@ -94,28 +94,42 @@ function get_wppsac_slider( $atts, $content = null ) {
 								));
 	}
 
-	$query = new WP_Query($args);
-	$post_count = $query->post_count;
-         
-             if ( $query->have_posts() ) :
-			 ?>
+	
+			?>
 				<div class="wppsac-slick-slider-wrp wppsac-clearfix">
 					<div id="recent-post-slider-<?php echo $unique; ?>" class="recent-post-slider <?php echo $design; ?>">
 						<?php
-					 while ( $query->have_posts() ) : $query->the_post();
-						$post_id 		= isset($post->ID) ? $post->ID : '';						
-						$cat_list		= wppsac_get_category_list($post->ID, $taxonomy);
-						$feat_image 	= wppsac_get_post_featured_image( $post->ID, $media_size, true );	
-							if( $design_file ) {
-									include( $design_file );
-								}
-							endwhile; ?>
+
+foreach ( $cat as $key => $item_cat ) {
+
+		$args = array(
+			'cat' 				  => $item_cat,
+			'posts_per_page'      => 1,
+		);
+		$query = new WP_Query($args);
+		$post_count = $query->post_count;
+
+            if ( $query->have_posts() ) :
+
+							while ( $query->have_posts() ) : 
+							 	$query->the_post();
+								//$post_id 		= isset($post->ID) ? $post->ID : '';						
+								//$cat_list		= wppsac_get_category_list($post->ID, $taxonomy);
+								$feat_image 	= wppsac_get_post_featured_image( $post->ID, $media_size, true );	
+									if( $design_file ) {
+										include( $design_file );
+									}
+							endwhile; 
+						endif; 
+        
+             		wp_reset_query();
+            }
+						?>
 					</div>
 					<div class="wppsac-slider-conf wppsac-hide" data-conf="<?php echo htmlspecialchars(json_encode($slider_conf)); ?>"></div>
 				</div>
-		  <?php
-            endif; 
-             wp_reset_query();
+		  	<?php
+            
 		return ob_get_clean();
 }
 add_shortcode('recent_post_slider', 'get_wppsac_slider');

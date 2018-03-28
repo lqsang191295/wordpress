@@ -41,3 +41,25 @@
 	<?php endif; ?>
 	</div>
 </article><!-- #post-## -->
+
+<?php 
+	if(is_category()){
+		echo ('<script type="text/javascript">
+			jQuery(".top-action-main").css({
+				"position": "fixed",
+				"width": "100%",
+				"z-index": "99999",
+				"bottom": "0",
+				"margin": "0"
+			});
+			jQuery("#primary").css({
+				"padding-top": "20px"
+			});
+			setInterval(function(){
+				jQuery("#secondary").css({
+					"padding-top": "20px"
+				});
+			});
+		</script>');
+	}
+?>

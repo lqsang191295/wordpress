@@ -10,15 +10,15 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php if(has_post_thumbnail()) : ?>
+	<!--<?php if(has_post_thumbnail()) : ?>
 		<?php $enlighten_img = wp_get_attachment_image_src(get_post_thumbnail_id(),'enlighten-single-page'); 
         $enlighten_img_src = $enlighten_img[0]; ?>
 		<div class="post-image-wrap">
 			<img src="<?php echo esc_url($enlighten_img_src); ?>" />
 		</div>
-	<?php endif; ?>
+	<?php endif; ?>-->
 	<div class="post-meta">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<!--<h1 class="entry-title"><?php the_title(); ?></h1>
 
 		<div class="entry-meta clearfix">
 			<div class="post-date">

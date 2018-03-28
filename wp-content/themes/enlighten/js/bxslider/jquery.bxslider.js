@@ -218,7 +218,7 @@
       }
       // make modifications to the viewport (.bx-viewport)
       slider.viewport.css({
-        width: '100%',
+        width: '32%',
         overflow: 'hidden',
         position: 'relative'
       });
@@ -229,10 +229,11 @@
       slider.children.css({
         float: slider.settings.mode === 'horizontal' ? 'left' : 'none',
         listStyle: 'none',
-        position: 'relative'
+        position: 'relative',
       });
       // apply the calculated width after the float is applied to prevent scrollbar interference
       slider.children.css('width', getSlideWidth());
+      //slider.children.css('width', '30%');
       // if slideMargin is supplied, add the css
       if (slider.settings.mode === 'horizontal' && slider.settings.slideMargin > 0) { slider.children.css('marginRight', slider.settings.slideMargin); }
       if (slider.settings.mode === 'vertical' && slider.settings.slideMargin > 0) { slider.children.css('marginBottom', slider.settings.slideMargin); }
@@ -1599,6 +1600,10 @@
     init();
 
     $(el).data('bxSlider', this);
+
+    slider.viewport.css({
+        width: '100%'
+    });
 
     // returns the current jQuery object
     return this;

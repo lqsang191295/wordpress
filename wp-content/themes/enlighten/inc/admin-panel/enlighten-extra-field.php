@@ -21,6 +21,14 @@ function enlighten_add_sidebar_layout_box()
                  'page', // $page
                  'normal', // $context
                  'high'); // $priority
+
+    add_meta_box(
+                 'enlighten_banner_layout', // $id
+                 esc_html__('Banner Layout','enlighten'), // $title
+                 'enlighten_banner_layout_callback', // $callback
+                 'post', // $page
+                 'normal', // $context
+                 'high'); // $priority
 }
 $enlighten_sidebar_layout = array(
         'left-sidebar' => array(
@@ -46,6 +54,19 @@ $enlighten_sidebar_layout = array(
                     )   
 
     );
+$enlighten_banner_layout = array(
+    'banner-no-layout' => array(
+                        'value'     => 'no',
+                        'label'     => esc_html__( 'Không có banner', 'enlighten' ),
+                    ),
+    'banner-yes-layout' => array(
+                        'value'     => 'yes',
+                        'label'     => esc_html__( 'Có banner', 'enlighten' ),
+                    ),
+);
+function enlighten_banner_layout_callback(){
+
+}
 function enlighten_sidebar_layout_callback()
 { 
 global $post , $enlighten_sidebar_layout;

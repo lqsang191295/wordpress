@@ -1243,7 +1243,6 @@ display:block;
 .portfolio_slider_wrap .anchor_title_wrap a{
 	color:#333333;
 	font-size:18px;
-	font-family: 'Titillium Web', sans-serif;
 	padding:0px 0 20px;
 	text-transform:uppercase;
 	font-weight:400;
@@ -1253,8 +1252,8 @@ display:block;
 	color:#2d7fc7;
 }
 .portfolio_slider_wrap .title_content_wrap .port_content_wrap{
-    font-family: 'Raleway', sans-serif;
 	color:#808080;
+	line-height: 23px;
 }
 .portfolio_slider_wrap.owl-carousel .owl-controls .owl-dot{
 	display: inline-block;
@@ -1309,11 +1308,14 @@ porfolio image hover effects and widget recent post section*/
     overflow: hidden;
     width: 100%;
 }
-.portfolio_slide_loop .image_wrap_port .image_wrap_port_a_hover:hover img,
-.footer_RN_wrap .rn_post_loop .rn_image a:hover img {
-    transform: scale(1.1);
+.portfolio_slide_loop:hover {
+    -webkit-box-shadow: 0px 5px 25px 0px rgba(64,64,64,0.3);
+    -moz-box-shadow: 0px 5px 25px 0px rgba(64,64,64,0.3);
+    box-shadow: 0px 5px 25px 0px rgba(64,64,64,0.3);
+    transform: scale(1.08);
+    transition: transform 0.3s
 }
-
+/*aaaaaaaaaaaaaaaaaaaaa*/
 .portfolio_slide_loop .image_wrap_port a img,
 .footer_RN_wrap .rn_post_loop .rn_image a img {
     -webkit-transition: all 900ms ease;
@@ -1344,7 +1346,6 @@ porfolio image hover effects and widget recent post section*/
 	color:#fff;
 	font-size:18px;
 	font-weight:400;
-	font-family: Lato, sans-serif;
 	text-transform: capitalize;
 }
 #section_service .bg_service .service_title a:hover{
@@ -1465,11 +1466,9 @@ margin-top: 10px;
     margin-bottom: 8px;
     letter-spacing: 4px;
     display: block;
-    font-family: 'Open Sans', sans-serif;
 }
 #section_service .title_two
 {
-	font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
     color: #fff;
     font-size: 40px;
@@ -1480,7 +1479,6 @@ margin-top: 10px;
 	text-transform: none;
 	padding: 30px 20px 0;
 	font-size: 16px;
-	font-family: 'Raleway', sans-serif;
 	color: #fff;
 }
 #section_service .service_slider.owl-carousel{
@@ -1540,12 +1538,10 @@ margin-top: 10px;
 #section_cta .title_description .cta_title{
 	display:block;
     font-size: 28px;
-    font-family: 'lato', sans-serif;
     line-height: 45px;
 }
 #section_cta .title_description .cta_desc{
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
 	display:block;
 	line-height: 28px;
 }
@@ -1585,7 +1581,7 @@ margin-top: 10px;
 }
 #section_faq_testimonial .test_wrap
 {
-	width:47%;
+	width:100%;
 	float:right;
 }
 #section_faq_testimonial .faq_wrap .faq_title,
@@ -1597,7 +1593,6 @@ margin-top: 10px;
     line-height: 50px;
 	padding-bottom:20px;
 	text-transform: uppercase;
-	font-family: 'Titillium Web', sans-serif;
 }
 
 /*================================================
@@ -1637,7 +1632,6 @@ home main-slider
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     display: inline-block;
-    font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
 	width: 30px;
@@ -1690,13 +1684,11 @@ home main-slider
 #section_achieve .bg_achieve .wrap_counter .counter_count{
 	color: #2d7fc7;
 	font-size: 40px;
-	font-family: 'Oswald', sans-serif;
 }
 #section_achieve .bg_achieve .wrap_counter .counter_title{
 	font-size: 18px;
 	color: #333;
 	text-transform: uppercase;
-	font-family: 'Titillium Web', sans-serif;
 }
 #section_achieve .bg_achieve .wrap_counter div .image_wrap_fa i
 {
@@ -1714,7 +1706,6 @@ home main-slider
 #section_faq_testimonial .test_faq_wrap .faq_qa{
 	color: #333333;
 	font-size: 16px;
-	font-family: 'Titillium Web', sans-serif;
 	padding: 25px 70px 25px 30px;
 	margin-bottom: 30px;
 	text-transform: uppercase;
@@ -1730,7 +1721,6 @@ home main-slider
 }
 #section_faq_testimonial .test_faq_wrap .faq_ans{
 	color: #808080;
-	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	text-transform: none;
 }
@@ -1847,7 +1837,6 @@ home main-slider
 	border-radius: 5px;
 	border: 1px solid #eee;
 	color: #777777;
-	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 	font-size: 16px;
 }
@@ -1875,7 +1864,6 @@ border-bottom: 4px solid #dcdbdb;
 	text-transform: uppercase;
 	color: #333333;
 	font-weight: 600;
-	font-family: 'Titillium Web', sans-serif;
 	font-size: 16px;
 	position: absolute;
 	margin-left: 15px;
@@ -1890,7 +1878,6 @@ border-bottom: 4px solid #dcdbdb;
 	display: block;
 	text-transform: normal;
 	color: #808080;
-	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 }
@@ -1955,7 +1942,6 @@ border: 3px solid #1b3a70;
 	margin-right: -20px;
 }
 #section_news_twitter_message .rn_content_loop .rn_title_content .read_more_ln a:after{
-	font-family: FontAwesome;
 	content: "\f105";
 	position: absolute;
 	right: 20px;
@@ -1967,12 +1953,12 @@ border: 3px solid #1b3a70;
 	-o-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+	font-family: FontAwesome;
 }
 #section_news_twitter_message .recent_news .rn_content_loop .rn_title_content .rn_title{
 	background: none;
 	color: #333333;
 	font-size: 22px;
-	font-family: 'Titillium Web', sans-serif;
 	padding: 0px;
 	text-transform: none;
 	line-height: 28px;
@@ -1999,7 +1985,6 @@ border: 3px solid #1b3a70;
 	color: #fff;
 	padding: 10px 20px;
 	font-size: 26px;
-	font-family: 'Titillium Web', sans-serif;
 	text-transform: uppercase;
 	margin: 0;
 	font-weight: 400;
@@ -2019,7 +2004,6 @@ border: 3px solid #1b3a70;
 }
 #section_news_twitter_message .messag_wrap .rn_title,
 #section_news_twitter_message .recent_news .rn_title{
-	font-family: 'Titillium Web', sans-serif;
 	text-transform: uppercase;
 	padding: 10px 20px;
 	color: #fff;
@@ -2043,17 +2027,14 @@ border: 3px solid #1b3a70;
 	display: inline-block;
 }
 .recent_news .rn_title_content .rn_content{
-	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	color: #333333;
 }
 #section_news_twitter_message .messag_wrap .content_title_designation{
 	padding:30px 20px;
-	font-family: 'Raleway', sans-serif;
 }
 #section_news_twitter_message .messag_wrap .message_author{
 	color: #000;
-	font-family: 'Titillium Web', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 }
@@ -2072,7 +2053,6 @@ border: 3px solid #1b3a70;
 ===============================*/
 .twitter_wrap .aptf-tweet-content{
 	color:#c5f0ff;
-	font-family: Lato, sans-serif;
 	font-size: 16px;
 }
 .twitter_wrap .aptf-tweet-username:before{
@@ -2187,7 +2167,6 @@ our partners section
 .site-footer .footer_area .rn_title,
 .site-footer .footer_area .footer_widget_title,
 .site-footer .footer_area .widget-title{
-	font-family: 'Titillium Web', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
@@ -2198,7 +2177,6 @@ our partners section
 	color: rgba(255,255,255,0.7);
 }
 .footer_area_one .footer_content_area{
-	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 }
 .footer_area_one .footer_content_area p{
@@ -2206,7 +2184,6 @@ our partners section
 	margin-bottom: 30px;
 }
 .footer_area_two .title_content_wrap .tn_title a{
-	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -2217,7 +2194,6 @@ our partners section
 	color: #fff;
 }
 .footer_RN_wrap{
-	font-family: 'Raleway', sans-serif;
 }
 .footer_area_two .title_content_wrap .rn_content{
 	font-size: 13px;
@@ -2242,7 +2218,6 @@ our partners section
 	overflow: hidden;
 }
 .footer_area_three{
-	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 }
 .footer_area_three i{
@@ -2276,7 +2251,6 @@ our partners section
 .site-footer .site-info {
 	text-align: center;
 	padding: 30px 0 0;
-	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	color: #fff;
 }
@@ -2497,7 +2471,6 @@ our partners section
 }
 .widget ul li:after{
 	content: "\f105";
-	font-family: FontAwesome;
 	right: 0;
 	position: absolute;
 	top: 14px;
@@ -2514,7 +2487,6 @@ our partners section
     display: inline-block;
 }
 .widget ul li{
-	font-family: 'Lato', sans-serif;
 	text-transform: capitalize;
 	position: relative;
 	font: 400 14px Open Sans,Arial,Helvetica,sans-serif;
@@ -2540,7 +2512,6 @@ our partners section
 }
 .widget_recent_comments ul li:after{
 	content: "\f105";
-	font-family: FontAwesome;
 	position: absolute;
 	right: 0;
 	color: #ccc;
@@ -2589,7 +2560,6 @@ article .post-comment{
 }
 article .entry-content{
 	clear: both;
-	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 }
 .archive article .entry-content a{
@@ -2730,14 +2700,12 @@ article .post-comment a i:hover{
 	text-align: left;
 	color: #fff;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
 	position: relative;
 	padding: 90px 0;
 }
 #enlighten-breadcrumb{
  	color: #fff;
  	font-size: 16px;
- 	font-family: 'Lato', sans-serif;
  	text-transform: capitalize;
 }
 #enlighten-breadcrumb a{
@@ -2832,7 +2800,6 @@ comment section
 }
 .comments-area ol.comment-list li .comment-body .comment-metadata > a {
 	color: #aaa;
-	font-family: 'Lato', sans-serif;
 	word-spacing: 2px;
 }
 .comments-area ol.comment-list li .comment-body .comment-content {
@@ -2940,7 +2907,6 @@ comment section
 }
 .search-form:after{
 	content: "\f002";
-	font-family: FontAwesome;
 	font-size: 15px;
 	color: #fff;
 	top: 50%;
@@ -3178,7 +3144,6 @@ comment section
     color: #5b6363;
     display: block;
     font-weight: 400;
-    font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
     z-index: 9;
 }
@@ -3219,7 +3184,6 @@ comment section
 }
 .contact-info-wrap ul li i{
 	display: inline-block;
-    font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -3316,7 +3280,6 @@ ul#follow_us_contacts li .icon-google:before {
     content: '\f0d5';
 }
 ul#follow_us_contacts li a i:before {
-	font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     speak: none;
@@ -3350,7 +3313,6 @@ ul#follow_us_contacts li a:hover i {
     color: #444;
     font-weight: 600;
     margin-bottom: 20px;
-    font-family: 'Titillium Web', sans-serif;
 }
 #secondary .footer_RN_wrap .rn_title .faq_dot{
 	line-height: 10px;
@@ -3361,14 +3323,12 @@ ul#follow_us_contacts li a:hover i {
 #secondary .footer_RN_wrap .rn_post_loop{
 	margin-bottom: 30px;
 	color: #777;
-	 font-family: 'lato', sans-serif;
 }
 #secondary .footer_RN_wrap .tn_title a{
 	color: #444;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: normal;
-	font-family: 'Titillium Web', sans-serif;
 }
 #secondary .footer_RN_wrap .tn_title a:hover{
 	color: rgba(45,127,199,0.6);
@@ -3407,7 +3367,6 @@ ul#follow_us_contacts li a:hover i {
 }
 .wrap_video .play-pause-video:before {
     content: '\f04b';
-    font-family: Fontawesome;
     font-size: 37px;
     background: transparent;
     color: #ffffff;
@@ -3578,7 +3537,6 @@ hr {
 }
 
 code,kbd {
-    font-family: courier,"courier new",monaco;
     color: #666
 }
 
@@ -3748,7 +3706,6 @@ ol.decimal li {
 }
 
 .obttns a:before,.obttns a:after,.obttns button:before,.obttns button:after {
-    font-family: 'oracleicons' !important;
     display: block;
     position: absolute;
     right: 0.25em;
@@ -3773,7 +3730,6 @@ ol.decimal li {
 }
 
 .obttns div.icn-padlock:before {
-    font-family: 'oracleicons' !important;
     display: inline-block;
     position: absolute;
     top: 0;
@@ -6139,13 +6095,11 @@ ul.icn-list.icn-circle-list.icn-hover li.bglinkblue:focus:before,ul.icn-list.icn
 
 /*! FONT - ORACLE ICONS */
 @font-face {
-    font-family: 'oracleicons';
     font-weight: normal;
     font-style: normal
 }
 
 .icnbefore:before,[class^="icn-"]:before,[class*=" icn-"]:before,[class^="icn-cv-right-after"]:after,[class*=" icn-cv-right-after"]:after,[class^="icn-cvthnr-right-after"]:after,[class*=" icn-cvthnr-right-after"]:after {
-    font-family: 'oracleicons' !important;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -8278,7 +8232,6 @@ ul.icn-list li a {
 }
 
 ul.icn-list li:before {
-    font-family: 'oracleicons' !important;
     position: absolute;
     top: -0.15em;
     left: 0;
@@ -8848,7 +8801,6 @@ html,body {
     z-index: 21;
     min-width: 300px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.3
 }
 
@@ -9825,6 +9777,14 @@ a.u02xlink:focus:after,a.u02xlink:active:after,a.u02xlink:hover:after {
     margin-top: 19px;
 }
 
+.u02mtoolflag .u02mflag img:hover {
+	-webkit-box-shadow: 0px 5px 25px 0px rgba(64,64,64,0.3);
+    -moz-box-shadow: 0px 5px 25px 0px rgba(64,64,64,0.3);
+    box-shadow: 0px 5px 25px 0px rgba(64,64,64,0.3);
+    transform: scale(1.08);
+    transition: transform 0.3s
+}
+
 .u02mflagglobal:before{
 	content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKhSURBVEhLjZVNSFRRGIbHVCqCFrUIdy2ioDBJMNyURdFiWge5mEWLNIZqJUhBZhBh+7JWLcKgILBfAkkrCCGKVpX9QfajJdmPWaFmMz3vve9M93ZnyBeeOed83/t9c++ce8+kyimfzy/I5XJp6IZ+eAwP4Sochjpb5yYaVlHUCqMg3YcbcBouwHkYxifdZt7o0vLCtAT6VcH4DtRUV9sDs47vhxVMWxhvwW84yLrCbeIiuRSeqlhi/gnGYBia4RvoC47YvwUewbT9J4JGURHX7QdXKjH/AsdgEuqhFlbLy6i7WgP7YAQmXKa6PUHDggi0OlcUsVkYY7rVtqKIt8EQ5EJ3KJY/oKZgmg+jzgVi/RK08/otqwNjRMQbQHswDpLGj67tLpjSChTE+hJDollUeLbDZ3xdjH1wHcZdr3i1TKccuAlqWuX6ssJ3XDUS89dwBQYcUqxJJjXUzmuTDhEv/dhYeDJheXnh2S3jE5iAs3AN9HI0uE9C5HpcnxC5X5526lF7QOAM9MJ62AC73Cchcn1hbVLkZkBPU7uMuspzsA30eMmgXa53r5iIr4PCEzCl8V8Rz8jYASOsKxgHw1SQlJrdLybii2AxNEG0+Vd9EFslU50Xm+Gi5lER+wA73TMm0vPIvbdvCgZgyOngCu6ADhS9ri9kjIpYxtaYiOt8mbTnDfyErNOBoRGkvXiWMxafSYn1WltjIt7m/CvQxj1jGX+5CB4AHY07GJdB8Joz9jJU2hYTOb1x9+Au6JyodeqvKNbmnQSdr0dhI3yHDltiIr6Qmk7GQdApmHaqtDBkQQ31m+mluQwrndYFVLLWRusvaxqew9z+pjDWgP6KdKDo59AX6Zh8CzOOaZ1l+t+zJSEVwSZoAd12O2SgeAellUr9Aay+h4BLazdcAAAAAElFTkSuQmCC");
 }
@@ -10254,7 +10214,6 @@ a.u02acclink:focus,#u02usertools a:focus,.u02usertools a:focus {
     background: #fff;
     font-size: 16px;
     line-height: 24px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #aaa;
     padding: 0 35px 0 10px;
     outline: 1px solid #cad9de;
@@ -15678,7 +15637,6 @@ div.sharewidget div.icn-share:before,div.sharewidget div.icn-share-alt:before {
     overflow: hidden;
     visibility: hidden;
     opacity: 0;
-    font-family: 'oracleicons';
     content: "\ea90";
     -webkit-transition: all .15s ease;
     -moz-transition: all .15s ease;
@@ -16896,7 +16854,7 @@ div.sharewidget div.icn-share:before,div.sharewidget div.icn-share-alt:before {
     text-align: left;
     white-space: nowrap;
     width: 100%;
-    margin-left: 0px;
+    margin-left: -8px;
 }
 
 .hp11w3 ul li {
@@ -19620,4 +19578,47 @@ _:-ms-fullscreen:before,:root .slick-prev:before,_:-ms-fullscreen:before,:root .
     .slick-dots li:first-child:nth-last-child(20),.slick-dots li:first-child:nth-last-child(20) ~ li {
         display: none
     }
+}
+
+
+
+.guess-name {
+	font-size: 17px;
+    color: #2d7fc7;
+    font-weight: 600;
+    display: block;
+}
+
+.guess-job {
+	font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+    display: block;
+}
+
+.ava-guess {
+	float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    display: block;
+}
+
+.ava-guess-img {
+	max-width: 130px;
+	display: inline-block;
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	left: 50%;
+	border: 1px solid #ccc;
+	top: -1px;
+}
+
+.title_content_wrap_custome {
+	min-height: 300px;
+}
+
+.portfolio_slide_loop_custome {
+	background: #e3e7ea;
 }

@@ -58,7 +58,7 @@ $enlighten_footer_style = esc_attr(get_theme_mod('enlighten_menu_style'));
                         echo enlighten_esc_footer_copyright($enlighten_footer_text) ." | ";
                 } 
 
-                printf( esc_html__( 'WordPress Theme: %s', 'enlighten' ) ,'<a target="_blank" href="https://accesspressthemes.com/wordpress-themes/enlighten/">Enlighten</a>' );
+                printf( esc_html__( '© Copyright: %s', 'enlighten' ) ,'<a target="_blank" href="/">SureHCS</a>' );
                 ?>
         	</div><!-- .site-info -->
         

@@ -1887,7 +1887,7 @@ $wp_customize->add_setting(
                'description' => esc_html__('Suggested image dimensions: 32 x 32','enlighten'),
                'section'    => 'enlighten_action_section',
                'settings'   => 'enlighten_action_image_five',
-               'priority' => 10
+               'priority' => 13
            )
        )
     );
@@ -1907,7 +1907,7 @@ $wp_customize->add_setting(
                'description' => esc_html__('Suggested image dimensions: 32 x 32','enlighten'),
                'section'    => 'enlighten_action_section',
                'settings'   => 'enlighten_action_image_five_1',
-               'priority' => 11
+               'priority' => 14
            )
        )
     );
@@ -1925,7 +1925,7 @@ $wp_customize->add_setting(
             'label' => esc_html__('Title Five','enlighten'),
             'type' => 'text',
             'section' => 'enlighten_action_section',
-            'priority' => 12
+            'priority' => 15
         )
     );
 

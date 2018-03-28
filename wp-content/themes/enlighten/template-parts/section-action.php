@@ -17,9 +17,13 @@ $enlighten_achieve_title_3 = get_theme_mod('enlighten_action_title_three');
 $enlighten_image_4 = get_theme_mod('enlighten_action_image_four');
 $enlighten_image_4_1 = get_theme_mod('enlighten_action_image_four_1');
 $enlighten_achieve_title_4 = get_theme_mod('enlighten_action_title_four');
+
+$enlighten_image_5 = get_theme_mod('enlighten_action_image_five');
+$enlighten_image_5_1 = get_theme_mod('enlighten_action_image_five_1');
+$enlighten_achieve_title_5 = get_theme_mod('enlighten_action_title_five');
 ?>
 
-<div class="fadeInUp animated" style="margin-bottom: 5px;">
+<div class="fadeInUp animated top-action-main" style="margin-bottom: 5px;">
     <?php
     if($enlighten_video_title || $enlighten_video_title_sub){ ?>
         <!-- <div class="ak-container"> -->
@@ -87,12 +91,12 @@ $enlighten_achieve_title_4 = get_theme_mod('enlighten_action_title_four');
 								<li style="width: 20%;" class="top-actions-five">
 									<a href="<?php echo(get_site_url() . "/community"); ?>" >
 										<div class="icn-img icn-circle bgorange beforewhite cn24hoverinvert">
-											<div class="top-actions-img-forum">
+											<div class="top-actions-img-five">
 												
 											</div>
 										</div>
 										<div>
-											<span>Forum</span>
+											<span><?php echo($enlighten_achieve_title_5); ?></span>
 										</div>
 									</a>
 								</li>
@@ -155,7 +159,25 @@ $enlighten_achieve_title_4 = get_theme_mod('enlighten_action_title_four');
 
 <?php if( function_exists( "get_testimonial_slider_recent" ) ){ get_testimonial_slider_recent( $set="1") ;}?>
 
-<?php 
+<?php
+	if(is_single()){
+		echo ('<script type="text/javascript">
+			jQuery(".top-action-main").css({
+				"position": "fixed",
+				"width": "100%",
+				"z-index": "99999",
+				"bottom": "0",
+				"margin": "0"
+			});
+			var u02nav = $(".u02nav").height();
+		    jQuery("#primary").css({
+				"padding-top": u02nav + "px"
+			});
+			jQuery("#u02mmenu ul").css({
+				"height": "377px"
+			})		
+		</script>');
+	} 
 	if($enlighten_image_1){
 		echo ('<script type="text/javascript">
 			jQuery(".top-actions-img-one").css({
@@ -236,6 +258,27 @@ $enlighten_achieve_title_4 = get_theme_mod('enlighten_action_title_four');
 			}, function() {
 			    jQuery(".top-actions-img-four").css({
 					"content": "url('. $enlighten_image_4 .')"
+				});	
+			});	
+		</script>');
+	}
+	if($enlighten_image_5){
+		echo ('<script type="text/javascript">
+			jQuery(".top-actions-img-five").css({
+				"content": "url('. $enlighten_image_5 .')"
+			});	
+			
+		</script>');
+	}
+	if($enlighten_image_5_1){
+		echo('<script type="text/javascript">
+			jQuery(".top-actions-five").hover(function(){
+				jQuery(".top-actions-img-five").css({
+					"content": "url('. $enlighten_image_5_1 .')"
+				});
+			}, function() {
+			    jQuery(".top-actions-img-five").css({
+					"content": "url('. $enlighten_image_5 .')"
 				});	
 			});	
 		</script>');
